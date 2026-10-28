@@ -1,0 +1,65 @@
+{
+  "decision": "KEEP_AS_SUBSTANTIVE_EXTENSION",
+  "date": "2026-10-26",
+  "theorems": [
+    "Concave effective bosonic jump weight implies prefix-mean cone preservation and all-time stochastic ordering of Gibbs energy distributions",
+    "Concavity iff the explicitly defined cone is preserved for every finite spectrum and every finite positive bath inverse temperature",
+    "Cone preservation by a density operator and its weighted adjoint implies all-time cooling f-divergence ordering for concave derivatives and heating ordering for convex derivatives; finite common-bath reversible schedules inherit both cone conditions"
+  ],
+  "exact_matrix_cases": 96,
+  "exact_assertions": 5859,
+  "numerical_probe_cases": 400,
+  "all_time_TV_at_positive_bath": "NOT_PROVED",
+  "four_star_status": "NOT_ESTABLISHED",
+  "principal_assumptions": [
+    "complete graph",
+    "uniform coupling prefactor",
+    "nonnegative continuous effective jump weight",
+    "nonnegative preparation inverse temperatures"
+  ],
+  "novelty_status": "No exact collision for the full physical or metric claims located in the two documented bounded gates. Metropolis special case, positive transforms, KL preparation-covariance identity, power divergences and Petz kernel representation are prior art and explicitly credited.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "files": {
+    "concave_kernel_checks.json": "a0fb45d8558eab651203550ea2f1ba678d9101431a72c967b06a088a4350190a",
+    "concave_kernel_theorem.md": "ae215d075c6cd0c20f1365e07a688615ddf568279df31e6c9b9a4c428b0d190e",
+    "finite_time_metric_theorem.md": "ac40ac0f40d654f8d1ba01722c1fb367f662f40835f18b12ac3c291bed8e012e",
+    "metric_novelty_report.md": "9957bedf3b1ad1427124d183442d141a83dbbb1f24222ebd9213dd1a733a4128",
+    "metric_protocol_checks.json": "6aad15d3574b701cd4376803d9cffbd1cf18f1596d8b629059ba574b39662cfd",
+    "metric_target.yaml": "d919bda49605150c3a0c6137290a2cb2eb0cb441a6e2231a83424ec5faa62b99",
+    "novelty_report.md": "eeaa5944a0307de5fd8745f41c084764cc7549dd4f52a8e75002cdfc4faa8349",
+    "physical_fingerprints.py": "3718c7dfe167188a2f90f2fbc542f5a4ce4c206e26438c3ef0982df8ecd13f54",
+    "small_fingerprints.json": "359078803b3e83b17eb4c0b32861be0813641e4d0476c12abd184500e510d5b1",
+    "target.yaml": "24f4cf3481dbd8ec6a8fa5261ef3fd77a7559b4c47dab6c98168a30d5b11656e",
+    "transient_probe.json": "c5f805708da0996aa46756e099c6a8d597ed8cc20cf15e0ae16ee62342872a30",
+    "transient_probe.py": "9c115afc7f761457fe14e545bf11eade113c07825d365b37c5bb6059ffbfaa1a",
+    "verify_concave_kernel.py": "f9cee9ffdacc072c3ada2f0f6aca0eace43ab108849cd2c4b55ff3b210f53c08",
+    "verify_metric_protocol.py": "7d30a832d40dd0520ddd38d59ba7941b426badaa73e16ecb5599dc905036207c"
+  },
+  "metric_checks": {
+    "cases": 36,
+    "tracked_exact_assertions": 6493,
+    "derivative_evaluations": 864,
+    "nonreversible_products": 12,
+    "status": "PASS",
+    "operator_type": "rational uniformization steps auditing the abstract operator theorem"
+  },
+  "finite_bath_KL_cooling": "PROVED_FOR_STATED_CONE_CLASS",
+  "finite_bath_chi_square_both_sides": "PROVED_FOR_STATED_CONE_CLASS",
+  "finite_schedule_extension": "PROVED_FOR_FIXED_PI_AND_BOTH_CONE_DIRECTIONS",
+  "six_level_cone_separator": {
+    "J": "1+d^2 on [0,1]",
+    "E": [
+      "0",
+      "1/2",
+      "501/1000",
+      "502/1000",
+      "503/1000",
+      "1"
+    ],
+    "bath_beta": "10 log 2",
+    "H_62": "-44977/1705000",
+    "triplet_property": "Every spectrum of three levels with width <=1 preserves the cone at every positive bath temperature",
+    "scope": "Cone failure only; no actual Mpemba crossing or minimality claim"
+  }
+}

@@ -1,0 +1,813 @@
+[
+  {
+    "family": "linear",
+    "energies": [
+      0,
+      1,
+      2
+    ],
+    "q": "1/2",
+    "G": [
+      [
+        "-5/3",
+        "1",
+        "2/3"
+      ],
+      [
+        "2",
+        "-3",
+        "1"
+      ],
+      [
+        "8/3",
+        "2",
+        "-14/3"
+      ]
+    ],
+    "H": [
+      [
+        "-23/6",
+        "1/3"
+      ],
+      [
+        "1/4",
+        "-11/2"
+      ]
+    ],
+    "characteristic_coefficients": [
+      "1",
+      "28/3",
+      "21",
+      "0"
+    ],
+    "trace": "-28/3",
+    "metzler": true,
+    "dimensions": [
+      3,
+      3
+    ],
+    "rank": 2,
+    "determinant": "0",
+    "row_sums": [
+      "0",
+      "0",
+      "0"
+    ],
+    "column_sums": [
+      "3",
+      "0",
+      "-3"
+    ],
+    "sorted_entry_multiset": [
+      "-14/3",
+      "-3",
+      "-5/3",
+      "2/3",
+      "1",
+      "1",
+      "2",
+      "2",
+      "8/3"
+    ],
+    "hashes": {
+      "matrix": "5272b8da4025b9a0b5f2185e38c78dbe845a43a3ffd8f0f5c3184e8cc0becd0f",
+      "transpose": "ad3dd28a7a89590b233c17625b7841be757921bba4cf16c4d0d881151294f535",
+      "reversal": "1f67cd24ced35d2fe5dbea0aa492107a19f1970f9647542bbdbd0635437802ef",
+      "minimum_over_simultaneous_permutations": "1f67cd24ced35d2fe5dbea0aa492107a19f1970f9647542bbdbd0635437802ef"
+    },
+    "zero_pattern": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "positivity": "Strict positive off-diagonal rates, negative diagonal entries",
+    "nonzero_spectrum": [
+      "(-14+sqrt(7))/3",
+      "(-14-sqrt(7))/3"
+    ]
+  },
+  {
+    "family": "linear",
+    "energies": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "q": "1/2",
+    "G": [
+      [
+        "-44/21",
+        "1",
+        "2/3",
+        "3/7"
+      ],
+      [
+        "2",
+        "-11/3",
+        "1",
+        "2/3"
+      ],
+      [
+        "8/3",
+        "2",
+        "-17/3",
+        "1"
+      ],
+      [
+        "24/7",
+        "8/3",
+        "2",
+        "-170/21"
+      ]
+    ],
+    "H": [
+      [
+        "-92/21",
+        "26/63",
+        "5/21"
+      ],
+      [
+        "13/42",
+        "-400/63",
+        "19/42"
+      ],
+      [
+        "10/63",
+        "76/189",
+        "-554/63"
+      ]
+    ],
+    "characteristic_coefficients": [
+      "1",
+      "410/21",
+      "7675/63",
+      "5090/21",
+      "0"
+    ],
+    "trace": "-410/21",
+    "metzler": true,
+    "dimensions": [
+      4,
+      4
+    ],
+    "rank": 3,
+    "determinant": "0",
+    "row_sums": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "column_sums": [
+      "6",
+      "2",
+      "-2",
+      "-6"
+    ],
+    "sorted_entry_multiset": [
+      "-170/21",
+      "-17/3",
+      "-11/3",
+      "-44/21",
+      "3/7",
+      "2/3",
+      "2/3",
+      "1",
+      "1",
+      "1",
+      "2",
+      "2",
+      "2",
+      "8/3",
+      "8/3",
+      "24/7"
+    ],
+    "hashes": {
+      "matrix": "e8b2bcd32cb8f951fdf8534af77e9c612b598d5b2b15a30c4910373309e61ff7",
+      "transpose": "4d1e3530b9d9f41f2a36cb510eb1ebf1dfb42ef258ae3d3f544873df346a338e",
+      "reversal": "529512bb134fe03b3682626c9c3dd55ee342f0b2202eebfa5797b5d75c991855",
+      "minimum_over_simultaneous_permutations": "13256362581984b0f9864d16285bfef3fd1db8a9db1da10496c5f56791a36246"
+    },
+    "zero_pattern": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "positivity": "Strict positive off-diagonal rates, negative diagonal entries",
+    "nonzero_spectrum": "Roots of the recorded characteristic polynomial after removing the factor lambda"
+  },
+  {
+    "family": "linear",
+    "energies": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "q": "1/2",
+    "G": [
+      [
+        "-248/105",
+        "1",
+        "2/3",
+        "3/7",
+        "4/15"
+      ],
+      [
+        "2",
+        "-86/21",
+        "1",
+        "2/3",
+        "3/7"
+      ],
+      [
+        "8/3",
+        "2",
+        "-19/3",
+        "1",
+        "2/3"
+      ],
+      [
+        "24/7",
+        "8/3",
+        "2",
+        "-191/21",
+        "1"
+      ],
+      [
+        "64/15",
+        "24/7",
+        "8/3",
+        "2",
+        "-1298/105"
+      ]
+    ],
+    "H": [
+      [
+        "-331/70",
+        "7/15",
+        "39/140",
+        "17/105"
+      ],
+      [
+        "7/20",
+        "-1451/210",
+        "149/280",
+        "67/210"
+      ],
+      [
+        "13/70",
+        "149/315",
+        "-338/35",
+        "172/315"
+      ],
+      [
+        "17/168",
+        "67/252",
+        "43/84",
+        "-272/21"
+      ]
+    ],
+    "characteristic_coefficients": [
+      "1",
+      "3596/105",
+      "308729/735",
+      "1602452/735",
+      "1777106/441",
+      "0"
+    ],
+    "trace": "-3596/105",
+    "metzler": true,
+    "dimensions": [
+      5,
+      5
+    ],
+    "rank": 4,
+    "determinant": "0",
+    "row_sums": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "column_sums": [
+      "10",
+      "5",
+      "0",
+      "-5",
+      "-10"
+    ],
+    "sorted_entry_multiset": [
+      "-1298/105",
+      "-191/21",
+      "-19/3",
+      "-86/21",
+      "-248/105",
+      "4/15",
+      "3/7",
+      "3/7",
+      "2/3",
+      "2/3",
+      "2/3",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "2",
+      "2",
+      "2",
+      "8/3",
+      "8/3",
+      "8/3",
+      "24/7",
+      "24/7",
+      "64/15"
+    ],
+    "hashes": {
+      "matrix": "15dd42056a72c7b75a18b5e2f9924367f28e544d6fbcfe589aca514bbe9b5bfb",
+      "transpose": "c6c9eedef51bbc32519dd7445d5993196c2c59e2d2cd43291e92e89cad5b0500",
+      "reversal": "768ec815de71d4072950da47e943cd4bca96597dc6a9da9dfcce97d3cdd4253a",
+      "minimum_over_simultaneous_permutations": "01ae6863f08e3595a7fba7c7d6604378561dd0dc0acecc1e6796711d47a428cf"
+    },
+    "zero_pattern": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "positivity": "Strict positive off-diagonal rates, negative diagonal entries",
+    "nonzero_spectrum": "Roots of the recorded characteristic polynomial after removing the factor lambda"
+  },
+  {
+    "family": "matched_exponential",
+    "energies": [
+      0,
+      1,
+      2
+    ],
+    "q": "1/2",
+    "G": [
+      [
+        "-3/4",
+        "1/2",
+        "1/4"
+      ],
+      [
+        "1",
+        "-3/2",
+        "1/2"
+      ],
+      [
+        "1",
+        "1",
+        "-2"
+      ]
+    ],
+    "H": [
+      [
+        "-15/8",
+        "1/4"
+      ],
+      [
+        "5/16",
+        "-19/8"
+      ]
+    ],
+    "characteristic_coefficients": [
+      "1",
+      "17/4",
+      "35/8",
+      "0"
+    ],
+    "trace": "-17/4",
+    "metzler": true,
+    "dimensions": [
+      3,
+      3
+    ],
+    "rank": 2,
+    "determinant": "0",
+    "row_sums": [
+      "0",
+      "0",
+      "0"
+    ],
+    "column_sums": [
+      "5/4",
+      "0",
+      "-5/4"
+    ],
+    "sorted_entry_multiset": [
+      "-2",
+      "-3/2",
+      "-3/4",
+      "1/4",
+      "1/2",
+      "1/2",
+      "1",
+      "1",
+      "1"
+    ],
+    "hashes": {
+      "matrix": "c0c56246608ba0d3e3aa0983a41f0240dc3840366936aa469fef8bd4366ccf2e",
+      "transpose": "8490cb1042a2cbc966687f7ebd2768ca2226e133214dbc744c004eb764558885",
+      "reversal": "8a3188d79b50a75f10feafa4fd1dbe0a4282d313f18a7ee569ac6f90c02ea5cc",
+      "minimum_over_simultaneous_permutations": "02b2e6bf1616eddef6b4820ec3ab11dd9264bf97d6fde185a033d2a8d777223d"
+    },
+    "zero_pattern": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "positivity": "Strict positive off-diagonal rates, negative diagonal entries",
+    "nonzero_spectrum": "Roots of the recorded characteristic polynomial after removing the factor lambda"
+  },
+  {
+    "family": "matched_exponential",
+    "energies": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "q": "1/2",
+    "G": [
+      [
+        "-7/8",
+        "1/2",
+        "1/4",
+        "1/8"
+      ],
+      [
+        "1",
+        "-7/4",
+        "1/2",
+        "1/4"
+      ],
+      [
+        "1",
+        "1",
+        "-5/2",
+        "1/2"
+      ],
+      [
+        "1",
+        "1",
+        "1",
+        "-3"
+      ]
+    ],
+    "H": [
+      [
+        "-33/16",
+        "7/24",
+        "1/8"
+      ],
+      [
+        "11/32",
+        "-133/48",
+        "5/16"
+      ],
+      [
+        "11/48",
+        "35/72",
+        "-79/24"
+      ]
+    ],
+    "characteristic_coefficients": [
+      "1",
+      "65/8",
+      "683/32",
+      "1155/64",
+      "0"
+    ],
+    "trace": "-65/8",
+    "metzler": true,
+    "dimensions": [
+      4,
+      4
+    ],
+    "rank": 3,
+    "determinant": "0",
+    "row_sums": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "column_sums": [
+      "17/8",
+      "3/4",
+      "-3/4",
+      "-17/8"
+    ],
+    "sorted_entry_multiset": [
+      "-3",
+      "-5/2",
+      "-7/4",
+      "-7/8",
+      "1/8",
+      "1/4",
+      "1/4",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "hashes": {
+      "matrix": "e405dbb673d0bfa7dd88f842b0a9ae236b49489cf53979ac36e74ea67b8114a9",
+      "transpose": "dea0b16451dcf21854a4b5bae02c329a725812f6b1ac9b668042cfa622fd03cb",
+      "reversal": "ff321a9be891e6a923be3c07f053a6feb1a0097b43a7dad35eb748e7f9268364",
+      "minimum_over_simultaneous_permutations": "0884cf75c1b26b3103879337e517bf1090d3cd43771f7acaa555153801ea0371"
+    },
+    "zero_pattern": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "positivity": "Strict positive off-diagonal rates, negative diagonal entries",
+    "nonzero_spectrum": "Roots of the recorded characteristic polynomial after removing the factor lambda"
+  },
+  {
+    "family": "matched_exponential",
+    "energies": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "q": "1/2",
+    "G": [
+      [
+        "-15/16",
+        "1/2",
+        "1/4",
+        "1/8",
+        "1/16"
+      ],
+      [
+        "1",
+        "-15/8",
+        "1/2",
+        "1/4",
+        "1/8"
+      ],
+      [
+        "1",
+        "1",
+        "-11/4",
+        "1/2",
+        "1/4"
+      ],
+      [
+        "1",
+        "1",
+        "1",
+        "-7/2",
+        "1/2"
+      ],
+      [
+        "1",
+        "1",
+        "1",
+        "1",
+        "-4"
+      ]
+    ],
+    "H": [
+      [
+        "-69/32",
+        "5/16",
+        "9/64",
+        "1/16"
+      ],
+      [
+        "23/64",
+        "-95/32",
+        "45/128",
+        "5/32"
+      ],
+      [
+        "23/96",
+        "25/48",
+        "-237/64",
+        "17/48"
+      ],
+      [
+        "23/128",
+        "25/64",
+        "153/256",
+        "-271/64"
+      ]
+    ],
+    "characteristic_coefficients": [
+      "1",
+      "209/16",
+      "7955/128",
+      "65109/512",
+      "96255/1024",
+      "0"
+    ],
+    "trace": "-209/16",
+    "metzler": true,
+    "dimensions": [
+      5,
+      5
+    ],
+    "rank": 4,
+    "determinant": "0",
+    "row_sums": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "column_sums": [
+      "49/16",
+      "13/8",
+      "0",
+      "-13/8",
+      "-49/16"
+    ],
+    "sorted_entry_multiset": [
+      "-4",
+      "-7/2",
+      "-11/4",
+      "-15/8",
+      "-15/16",
+      "1/16",
+      "1/8",
+      "1/8",
+      "1/4",
+      "1/4",
+      "1/4",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "hashes": {
+      "matrix": "006a6e01237d1bcb11dd0c602f29c2564637dc70c9106acbdc3b9936de14e9e7",
+      "transpose": "6cca77ecdb787fbd6479814990a052b4c947cc6331085c73fffda2c3b41c939a",
+      "reversal": "4c8a68673a0ccc8e8ce63fad6a7db43802a8460cd86e511db7dfb1b88a690db2",
+      "minimum_over_simultaneous_permutations": "006a6e01237d1bcb11dd0c602f29c2564637dc70c9106acbdc3b9936de14e9e7"
+    },
+    "zero_pattern": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "positivity": "Strict positive off-diagonal rates, negative diagonal entries",
+    "nonzero_spectrum": "Roots of the recorded characteristic polynomial after removing the factor lambda"
+  }
+]

@@ -1,0 +1,4 @@
+Local clean replay (28 October 2026): macOS 27 (arm64), CPython 3.11 via uv; optional jobs with numpy, scipy and matplotlib pinned in uv.lock. Run through the shared local research queue.
+Default exact checks: python3 run_checks.py --output <dir> (standard library only). Negative controls: python3 negative_controls.py (refuses -O).
+CI: GitHub Actions ubuntu-latest, Python 3.11 (.github/workflows/replay.yml): SHA256SUMS, default exact checks compared exactly with retained outputs, negative controls, unchanged working tree.
+LaTeX: pdfTeX (TeX Live 2026), three passes.

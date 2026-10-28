@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research candidate by its DOI."
+title: "Thermal ordering under Markovian relaxation: a finite-time criterion and its limits"
+type: software
+authors:
+  - name: Anonymous
+version: 1.0.0-candidate
+doi: 10.5281/zenodo.23721564
+date-released: 2026-10-28
+repository-code: "https://github.com/ipitchford/thermal-ordering-concave-baths"
+url: "https://evidencepress.org/releases/thermal-ordering-concave-baths/"
+license:
+  - CC0-1.0
+  - MIT
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23721564
+    description: "Version DOI (1.0.0-candidate)"
+  - type: doi
+    value: 10.5281/zenodo.23721563
+    description: "Concept DOI (all versions)"
+keywords:
+  - Markovian Mpemba effect
+  - thermal relaxation
+  - stochastic order
+  - f-divergence
+abstract: "A cone-preservation test that orders cooling Gibbs preparations at all times for a family of divergences; for complete-graph bosonic rates with common coupling it holds for all spectra and bath temperatures exactly when the jump weight is concave; certified super-Ohmic relative-entropy crossing; certified total-variation reversal inside the cone-preserving class; an unbounded induced-subsystem hierarchy. Unrefereed candidate; internal AI-assisted review only. Text and data CC0-1.0; code MIT."

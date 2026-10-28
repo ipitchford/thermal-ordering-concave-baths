@@ -1,0 +1,258 @@
+{
+  "status": "PASS",
+  "method": "fractions.Fraction, triangular back-substitution, exact survival proof coefficients",
+  "primary_range": "N=4,...,12; epsilon=1/100",
+  "primary_proper_subsystems": 8086,
+  "all_time_certificate_classes": {
+    "common_or_two_exponentials": 5092,
+    "both_lower_states": 1013,
+    "ground_without_slow": 1013,
+    "middle_ground": 968
+  },
+  "instances": [
+    {
+      "N": 4,
+      "proper_subsystems_checked": 10,
+      "min_proper_prefix_margin": "1/398",
+      "full_final_prefix_margin": "-1/873",
+      "escape_rates": [
+        "0",
+        "1",
+        "5/2",
+        "391/100"
+      ],
+      "energy_top": 1555,
+      "uniform_derivative": "389/2328"
+    },
+    {
+      "N": 5,
+      "proper_subsystems_checked": 25,
+      "min_proper_prefix_margin": "1/2655",
+      "full_final_prefix_margin": "-1/4692",
+      "escape_rates": [
+        "0",
+        "1",
+        "5/2",
+        "251/100",
+        "491/100"
+      ],
+      "energy_top": 9779,
+      "uniform_derivative": "326/1955"
+    },
+    {
+      "N": 6,
+      "proper_subsystems_checked": 56,
+      "min_proper_prefix_margin": "1/7852",
+      "full_final_prefix_margin": "-1/12235",
+      "escape_rates": [
+        "0",
+        "1",
+        "5/2",
+        "251/100",
+        "63/25",
+        "2947/500"
+      ],
+      "energy_top": 29369,
+      "uniform_derivative": "4895/29364"
+    },
+    {
+      "N": 7,
+      "proper_subsystems_checked": 119,
+      "min_proper_prefix_margin": "1/17165",
+      "full_final_prefix_margin": "-1/24678",
+      "escape_rates": [
+        "0",
+        "1",
+        "5/2",
+        "251/100",
+        "63/25",
+        "253/100",
+        "4813/700"
+      ],
+      "energy_top": 67185,
+      "uniform_derivative": "4799/28791"
+    },
+    {
+      "N": 8,
+      "proper_subsystems_checked": 246,
+      "min_proper_prefix_margin": "1/31770",
+      "full_final_prefix_margin": "-1/43197",
+      "escape_rates": [
+        "0",
+        "1",
+        "5/2",
+        "251/100",
+        "63/25",
+        "253/100",
+        "127/50",
+        "2357/300"
+      ],
+      "energy_top": 131655,
+      "uniform_derivative": "16457/98736"
+    },
+    {
+      "N": 9,
+      "proper_subsystems_checked": 501,
+      "min_proper_prefix_margin": "1/52843",
+      "full_final_prefix_margin": "-1/68968",
+      "escape_rates": [
+        "0",
+        "1",
+        "5/2",
+        "251/100",
+        "63/25",
+        "253/100",
+        "127/50",
+        "51/20",
+        "9721/1100"
+      ],
+      "energy_top": 232775,
+      "uniform_derivative": "12932/77589"
+    },
+    {
+      "N": 10,
+      "proper_subsystems_checked": 1012,
+      "min_proper_prefix_margin": "1/81560",
+      "full_final_prefix_margin": "-1/103167",
+      "escape_rates": [
+        "0",
+        "1",
+        "5/2",
+        "251/100",
+        "63/25",
+        "253/100",
+        "127/50",
+        "51/20",
+        "64/25",
+        "12763/1300"
+      ],
+      "energy_top": 382109,
+      "uniform_derivative": "12737/76420"
+    },
+    {
+      "N": 11,
+      "proper_subsystems_checked": 2035,
+      "min_proper_prefix_margin": "1/119097",
+      "full_final_prefix_margin": "-1/146970",
+      "escape_rates": [
+        "0",
+        "1",
+        "5/2",
+        "251/100",
+        "63/25",
+        "253/100",
+        "127/50",
+        "51/20",
+        "64/25",
+        "257/100",
+        "5399/500"
+      ],
+      "energy_top": 592789,
+      "uniform_derivative": "26945/161667"
+    },
+    {
+      "N": 12,
+      "proper_subsystems_checked": 4082,
+      "min_proper_prefix_margin": "1/166630",
+      "full_final_prefix_margin": "-1/201553",
+      "escape_rates": [
+        "0",
+        "1",
+        "5/2",
+        "251/100",
+        "63/25",
+        "253/100",
+        "127/50",
+        "51/20",
+        "64/25",
+        "257/100",
+        "129/50",
+        "20023/1700"
+      ],
+      "energy_top": 879515,
+      "uniform_derivative": "24431/146584"
+    }
+  ],
+  "other_parameter_checks": [
+    {
+      "N": 4,
+      "epsilon": "1/50",
+      "proper_subsystems_checked": 10
+    },
+    {
+      "N": 5,
+      "epsilon": "1/50",
+      "proper_subsystems_checked": 25
+    },
+    {
+      "N": 6,
+      "epsilon": "1/50",
+      "proper_subsystems_checked": 56
+    },
+    {
+      "N": 7,
+      "epsilon": "1/50",
+      "proper_subsystems_checked": 119
+    },
+    {
+      "N": 8,
+      "epsilon": "1/50",
+      "proper_subsystems_checked": 246
+    },
+    {
+      "N": 4,
+      "epsilon": "1/20",
+      "proper_subsystems_checked": 10
+    },
+    {
+      "N": 5,
+      "epsilon": "1/20",
+      "proper_subsystems_checked": 25
+    },
+    {
+      "N": 6,
+      "epsilon": "1/20",
+      "proper_subsystems_checked": 56
+    },
+    {
+      "N": 7,
+      "epsilon": "1/20",
+      "proper_subsystems_checked": 119
+    },
+    {
+      "N": 8,
+      "epsilon": "1/20",
+      "proper_subsystems_checked": 246
+    },
+    {
+      "N": 4,
+      "epsilon": "1/15",
+      "proper_subsystems_checked": 10
+    },
+    {
+      "N": 5,
+      "epsilon": "1/15",
+      "proper_subsystems_checked": 25
+    },
+    {
+      "N": 6,
+      "epsilon": "1/15",
+      "proper_subsystems_checked": 56
+    },
+    {
+      "N": 7,
+      "epsilon": "1/15",
+      "proper_subsystems_checked": 119
+    },
+    {
+      "N": 8,
+      "epsilon": "1/15",
+      "proper_subsystems_checked": 246
+    }
+  ],
+  "limits": [
+    "Finite arithmetic checks do not prove the unrestricted theorem.",
+    "Positive-bath continuation is proved analytically in hierarchy_theorem.md, not by this script.",
+    "No strong Mpemba cancellation or finite-bath all-time local TV claim is tested."
+  ]
+}

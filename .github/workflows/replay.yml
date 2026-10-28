@@ -1,0 +1,22 @@
+# SPDX-License-Identifier: MIT
+name: Replay
+on:
+  push:
+  pull_request:
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check SHA256SUMS
+        run: sha256sum -c SHA256SUMS
+      - name: Default exact checks (standard library; exact comparison with retained outputs)
+        run: python3 -B run_checks.py --output "$RUNNER_TEMP/replay"
+      - name: Semantic negative controls
+        run: python3 -B negative_controls.py
+      - name: Working tree unchanged
+        run: test -z "$(git status --porcelain)"

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "model_cases": 36,
+  "exact_assertions": 6493,
+  "exact_derivative_evaluations": 864,
+  "nonreversible_three_stage_products": 12,
+  "normalisations": {
+    "power_alpha_2": "one half Pearson chi-square",
+    "power_alpha_half": "four times Hellinger squared when H\u00b2=half squared root distance",
+    "power_alpha_0_limit": "reverse KL, not Renyi order zero"
+  },
+  "scope": "Exact finite-operator audit; these uniformization steps are not matrix exponentials. The general semigroup and protocol claims rely on the written proof.",
+  "elapsed_seconds": 0.5398504170007072,
+  "script_sha256": "7d30a832d40dd0520ddd38d59ba7941b426badaa73e16ecb5599dc905036207c"
+}

@@ -1,0 +1,27 @@
+title: Sharpness of thermal divergence ordering under prefix-cone preserving reversible dynamics
+date: 2026-10-26
+status: exploratory, not a novelty claim
+ambient_object: finite row Markov generator G, full-support decreasing stationary Gibbs law pi, detailed balance
+cone: C = {b : b_j >= (b_1 + ... + b_(j-1))/(j-1)}
+admissibility: T Q T^-1 has nonnegative off-diagonal entries, Q_ij = G_ij - G_1j for i,j >= 2
+preparations: p_beta proportional to pi^beta; bath beta = 1; beta >= 0
+target_questions:
+  - Can cooling thermal preparations cross in Renyi order alpha > 2?
+  - Can heating thermal preparations cross in Renyi order 0 < alpha < 2?
+  - Can thermal preparations cross in total variation despite cone preservation?
+  - Does a stronger all-convex-f theorem hold under these assumptions?
+known_sufficient_ranges:
+  cooling: convex f with increasing concave derivative; power divergences alpha <= 2
+  heating: convex f with increasing convex derivative; power divergences alpha >= 2
+comparison_fingerprint:
+  N: 3
+  pi: [4/7, 2/7, 1/7]
+  row_generator: [[-1/4, 0, 1/4], [0, -9/20, 9/20], [1, 9/10, -19/10]]
+  quotient_eigenvalues: [-7/20, -9/4]
+  transformed_quotient: [[-7/20, 1/5], [0, -9/4]]
+  preliminary_finite_scan: no crossing detected; no theorem follows
+prior_art_gate:
+  formula: derivative_beta D_f = -Cov_p_beta(E, K*_pi f'(K r_beta))
+  aliases: [thermal relative majorization, Lorenz order, Markov cone invariance, temperature-monotone entropy, Renyi-dependent Mpemba]
+  nearest_known_comparison: Summer et al. 2026 PRX Appendix D, metric-dependent crossings for general nonequilibrium preparations
+  difference_to_check: thermal preparations and simultaneous reversible prefix-cone preservation

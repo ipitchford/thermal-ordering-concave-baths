@@ -1,0 +1,10 @@
+{
+  "exp_cutoff_s=1/4": "threshold 3/4*w_c confirmed",
+  "exp_cutoff_s=1/2": "threshold 1/2+sqrt(1/2)*w_c confirmed",
+  "exp_cutoff_s=1": "threshold 2*w_c confirmed",
+  "exp_cutoff_s=3/2": "convex near 0: not concave on any [0,D]",
+  "exp_cutoff_s=3": "convex near 0: not concave on any [0,D]",
+  "drude": "threshold sqrt(3) w_c confirmed (1.7320 < sqrt3 < 1.7321)",
+  "ohmic_gaussian": "threshold sqrt(3/2) w_c confirmed",
+  "ohmic_midpoint": "J(3)<[J(2.4)+J(3.6)]/2 certified; J(1)>[J(.5)+J(1.5)]/2 certified"
+}

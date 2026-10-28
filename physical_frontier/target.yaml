@@ -1,0 +1,59 @@
+target_id: concave_bosonic_complete_graph
+search_date: 2026-10-26
+intended_contribution_unit: theorem_and_complete_proof
+claim:
+  exact_statement: |
+    For every N>=2, E1<...<EN, beta_b>0, and nonnegative concave jump-weight
+    J on [0, EN-E1], let the complete-graph backward generator have rates
+    G_ij = J(|Ei-Ej|)/(exp(beta_b*|Ei-Ej|)-1) + 1_{Ei>Ej} J(|Ei-Ej|), i!=j,
+    with rows summing to zero. Its semigroup preserves the cone C of observables
+    whose arithmetic prefix means are nondecreasing. Therefore, for every t>=0,
+    every beta_h<beta_c with beta_h>=0, and every increasing energy observable b,
+    p_E(beta_h)^T exp(tG)b >= p_E(beta_c)^T exp(tG)b. If the chain is irreducible
+    and its slow eigenvalue is simple, slow-mode Mpemba inversion is excluded for
+    nonnegative preparation inverse temperatures on the same side of beta_b.
+  exclusions:
+    - No claim of all-time total-variation or all-distance ordering.
+    - No claim for arbitrary matrix elements, sparse graphs, or negative temperatures.
+    - No assertion that the earlier literature has not announced a related spectral exclusion.
+source:
+  originating_reference: Avitan, Factor, Gelbwaser-Klimovsky (2026), arXiv 2603.04567v1, Eq.5 and spectral-exclusion discussion
+  url: https://arxiv.org/html/2603.04567v1
+normalisation:
+  indices: states 1..N in strictly increasing energy order
+  scaling: k_B=1; overall common rate scale arbitrary
+  basis_order: Helmert contrast u^(j)=(-1,...,-1,j-1,0,...,0), j=2..N
+  symmetries: [common_energy_shift, positive_common_rate_scaling]
+sequences:
+  - name: linear_J_upward_rates_beta_log2
+    exact_values: [1, 2/3, 3/7, 4/15, 5/31, 2/21, 7/127, 8/255]
+    natural_scalings: [k/(2^k-1)]
+  - name: matched_exponential_J_upward_rates
+    exact_values: [1/2, 1/4, 1/8, 1/16, 1/32, 1/64]
+    natural_scalings: [2^-k]
+generating_functions:
+  - name: linear_J_rate_Lambert_series
+    expression: sum_{k>=1} k*z^k/(2^k-1)
+    variables: [z]
+matrices:
+  - name: G3_linear_J_beta_log2
+    entries: [[-5/3, 1, 2/3], [2, -3, 1], [8/3, 2, -14/3]]
+  - name: H3_linear_J_beta_log2
+    entries: [[-23/6, 1/3], [1/4, -11/2]]
+  - name: further_instances
+    entries_file: small_fingerprints.json
+aliases:
+  analysis: [concave increment inequality, arithmetic-prefix-mean cone, positive semigroup, logarithmic divided difference]
+  probability: [stochastic order of Gibbs preparations, monotonicity in mean, Cesaro monotonicity, Mobius monotonicity, Markov comparison]
+  combinatorics: [Robinson similarity Laplacian, seriation, Helmert contrasts, Soules basis]
+  mathematical_physics: [bosonic Davies population generator, Ohmic bath with uniform coupling, super-Ohmic bath under shifted source convention, thermal monotonicity]
+  statistics_optimisation_ml: [spectral seriation, rank-one Cauchy kernel mixtures]
+known_invariants:
+  stationary_law: pi_i proportional exp(-beta_b*Ei)
+  detailed_balance: pi_i G_ij = pi_j G_ji
+  linear_J_skew_part: G_ij-G_ji=Ei-Ej
+  charpoly_N3_linear: lambda*(lambda^2+28*lambda/3+21)
+  simple_conventional_monotonicity_separator: E=[0,1,2], beta_b=log(2), J=d gives q(1->0)=2<q(2->0)=8/3
+search_constraints:
+  primary_sources_only_for_technical_claims: true
+  databases_or_corpora: [arxiv, APS, primary journal websites, author-hosted PDFs, two web search systems]

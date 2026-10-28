@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "models": [
+    {
+      "name": "four-state hinge-divergence heating inversion",
+      "N": 4,
+      "status": "PASS",
+      "all_decisions_exact_rational": true,
+      "uniformization_terms": 121,
+      "exponential_bound_method": "alternating Taylor even/odd pair for exp(-x)",
+      "initial_cold_minus_warm": {
+        "lower_exact": "60176432792919133/6250000000000000000",
+        "upper_exact": "962822924686706129/100000000000000000000",
+        "lower_decimal_approximation": 0.009628229246867062,
+        "upper_decimal_approximation": 0.009628229246867062
+      },
+      "final_warm_minus_cold": {
+        "lower_exact": "1353408507107/20000000000000000000",
+        "upper_exact": "422940158471/6250000000000000000",
+        "lower_decimal_approximation": 6.767042535535e-08,
+        "upper_decimal_approximation": 6.767042535536e-08
+      },
+      "positive_set_one_based": [
+        1,
+        2,
+        4
+      ],
+      "negative_set_one_based": [
+        3
+      ],
+      "probability_interval_width_upper_bound": {
+        "lower_exact": "0",
+        "upper_exact": "8237803255787/1000000000000000000000000000000000000000000000",
+        "lower_decimal_approximation": 0.0,
+        "upper_decimal_approximation": 8.237803255787e-33
+      },
+      "scope": "Heating preparations beta=3,4 toward beta_b=1; abstract reversible cone-preserving generator, not a concave-J physical model."
+    },
+    {
+      "name": "five-state total-variation heating inversion, all rates positive",
+      "N": 5,
+      "status": "PASS",
+      "all_decisions_exact_rational": true,
+      "uniformization_terms": 121,
+      "exponential_bound_method": "alternating Taylor even/odd pair for exp(-x)",
+      "initial_cold_minus_warm": {
+        "lower_exact": "30088219093677713/3125000000000000000",
+        "upper_exact": "962823010997686817/100000000000000000000",
+        "lower_decimal_approximation": 0.009628230109976868,
+        "upper_decimal_approximation": 0.009628230109976868
+      },
+      "final_warm_minus_cold": {
+        "lower_exact": "1504420729463/25000000000000000000",
+        "upper_exact": "6017682917853/100000000000000000000",
+        "lower_decimal_approximation": 6.017682917852e-08,
+        "upper_decimal_approximation": 6.017682917853e-08
+      },
+      "positive_set_one_based": [
+        1,
+        2,
+        4
+      ],
+      "negative_set_one_based": [
+        3,
+        5
+      ],
+      "probability_interval_width_upper_bound": {
+        "lower_exact": "0",
+        "upper_exact": "4118571205799/500000000000000000000000000000000000000000000",
+        "lower_decimal_approximation": 0.0,
+        "upper_decimal_approximation": 8.237142411598e-33
+      },
+      "scope": "Heating preparations beta=3,4 toward beta_b=1; abstract reversible cone-preserving generator, not a concave-J physical model."
+    }
+  ],
+  "source_sha256": "33bdddad2d6dbb08441669b69dd4883498a9c5f6bcbd6ec49da5dbe0a20d5528",
+  "script_sha256": "5b18475c9fc03ea04d922b82f22cac2a5d67c0e3c7ea5b2308f9ff23c0a2e0f0"
+}

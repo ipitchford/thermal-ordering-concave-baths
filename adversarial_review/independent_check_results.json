@@ -1,0 +1,1829 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "hierarchy_exact": {
+    "proper_subsystems_checked": 2871,
+    "cases": [
+      {
+        "N": 4,
+        "epsilon": "1/100",
+        "minimum_proper_margin": "1/398",
+        "full_final_margin": "-1/873"
+      },
+      {
+        "N": 5,
+        "epsilon": "1/100",
+        "minimum_proper_margin": "1/2655",
+        "full_final_margin": "-1/4692"
+      },
+      {
+        "N": 6,
+        "epsilon": "1/100",
+        "minimum_proper_margin": "1/7852",
+        "full_final_margin": "-1/12235"
+      },
+      {
+        "N": 7,
+        "epsilon": "1/100",
+        "minimum_proper_margin": "1/17165",
+        "full_final_margin": "-1/24678"
+      },
+      {
+        "N": 8,
+        "epsilon": "1/100",
+        "minimum_proper_margin": "1/31770",
+        "full_final_margin": "-1/43197"
+      },
+      {
+        "N": 9,
+        "epsilon": "1/100",
+        "minimum_proper_margin": "1/52843",
+        "full_final_margin": "-1/68968"
+      },
+      {
+        "N": 4,
+        "epsilon": "1/15",
+        "minimum_proper_margin": "1/58",
+        "full_final_margin": "-1/108"
+      },
+      {
+        "N": 5,
+        "epsilon": "1/15",
+        "minimum_proper_margin": "1/360",
+        "full_final_margin": "-1/612"
+      },
+      {
+        "N": 6,
+        "epsilon": "1/15",
+        "minimum_proper_margin": "1/1052",
+        "full_final_margin": "-1/1610"
+      },
+      {
+        "N": 7,
+        "epsilon": "1/15",
+        "minimum_proper_margin": "1/2290",
+        "full_final_margin": "-1/3258"
+      },
+      {
+        "N": 8,
+        "epsilon": "1/15",
+        "minimum_proper_margin": "1/4230",
+        "full_final_margin": "-1/5712"
+      },
+      {
+        "N": 9,
+        "epsilon": "1/15",
+        "minimum_proper_margin": "1/7028",
+        "full_final_margin": "-1/9128"
+      },
+      {
+        "N": 4,
+        "epsilon": "499/7000",
+        "minimum_proper_margin": "7/12018",
+        "full_final_margin": "-499/49527"
+      },
+      {
+        "N": 5,
+        "epsilon": "499/7000",
+        "minimum_proper_margin": "499/166545",
+        "full_final_margin": "-499/282108"
+      },
+      {
+        "N": 6,
+        "epsilon": "499/7000",
+        "minimum_proper_margin": "499/486148",
+        "full_final_margin": "-499/742765"
+      },
+      {
+        "N": 7,
+        "epsilon": "499/7000",
+        "minimum_proper_margin": "499/1057835",
+        "full_final_margin": "-499/1503522"
+      },
+      {
+        "N": 8,
+        "epsilon": "499/7000",
+        "minimum_proper_margin": "499/1953630",
+        "full_final_margin": "-499/2636403"
+      },
+      {
+        "N": 9,
+        "epsilon": "499/7000",
+        "minimum_proper_margin": "499/3245557",
+        "full_final_margin": "-499/4213432"
+      }
+    ],
+    "excluded_epsilon_1_over_14_boundary_margin": "0"
+  },
+  "concavity_exact": {
+    "rational_concave_models": 80,
+    "cases": [
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          2
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/2",
+        "minimum_offdiagonal": "7/3"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          2
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/16",
+        "minimum_offdiagonal": "49/255"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          2
+        ],
+        "kernel": "concave_hump",
+        "q": "1/2",
+        "minimum_offdiagonal": "14/3"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          2
+        ],
+        "kernel": "concave_hump",
+        "q": "1/16",
+        "minimum_offdiagonal": "98/255"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          2
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/2",
+        "minimum_offdiagonal": "1"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          2
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/16",
+        "minimum_offdiagonal": "1/15"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          2
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/2",
+        "minimum_offdiagonal": "4/3"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          2
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/16",
+        "minimum_offdiagonal": "32/255"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          2
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/2",
+        "minimum_offdiagonal": "7/3"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          2
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/16",
+        "minimum_offdiagonal": "21/85"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          4
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/2",
+        "minimum_offdiagonal": "47/105"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          4
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/16",
+        "minimum_offdiagonal": "20753/17891055"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          4
+        ],
+        "kernel": "concave_hump",
+        "q": "1/2",
+        "minimum_offdiagonal": "22/15"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          4
+        ],
+        "kernel": "concave_hump",
+        "q": "1/16",
+        "minimum_offdiagonal": "8426/2555865"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          4
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/2",
+        "minimum_offdiagonal": "1/7"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          4
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/16",
+        "minimum_offdiagonal": "1/4095"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          4
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/2",
+        "minimum_offdiagonal": "8/35"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          4
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/16",
+        "minimum_offdiagonal": "4096/5963685"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          4
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/2",
+        "minimum_offdiagonal": "121/105"
+      },
+      {
+        "N": 3,
+        "energies": [
+          0,
+          1,
+          4
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/16",
+        "minimum_offdiagonal": "3839/1052415"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/2",
+        "minimum_offdiagonal": "19/21"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/16",
+        "minimum_offdiagonal": "347/23205"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "kernel": "concave_hump",
+        "q": "1/2",
+        "minimum_offdiagonal": "52/21"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "kernel": "concave_hump",
+        "q": "1/16",
+        "minimum_offdiagonal": "292/7735"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/2",
+        "minimum_offdiagonal": "1/3"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/16",
+        "minimum_offdiagonal": "1/255"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/2",
+        "minimum_offdiagonal": "10/21"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/16",
+        "minimum_offdiagonal": "128/13923"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/2",
+        "minimum_offdiagonal": "11/7"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/16",
+        "minimum_offdiagonal": "2287/69615"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          4,
+          9
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/2",
+        "minimum_offdiagonal": "563/26061"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          4,
+          9
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/16",
+        "minimum_offdiagonal": "4804000457/2186280778565469495"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          4,
+          9
+        ],
+        "kernel": "concave_hump",
+        "q": "1/2",
+        "minimum_offdiagonal": "752/7665"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          4,
+          9
+        ],
+        "kernel": "concave_hump",
+        "q": "1/16",
+        "minimum_offdiagonal": "328126768/42868250560107245"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          4,
+          9
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/2",
+        "minimum_offdiagonal": "1/255"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          4,
+          9
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/16",
+        "minimum_offdiagonal": "1/4294967295"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          4,
+          9
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/2",
+        "minimum_offdiagonal": "1408/130305"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          4,
+          9
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/16",
+        "minimum_offdiagonal": "23622320128/19676527007089225455"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          4,
+          9
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/2",
+        "minimum_offdiagonal": "6827/43435"
+      },
+      {
+        "N": 4,
+        "energies": [
+          0,
+          1,
+          4,
+          9
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/16",
+        "minimum_offdiagonal": "347606019823/19676527007089225455"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/2",
+        "minimum_offdiagonal": "37/155"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/16",
+        "minimum_offdiagonal": "79517/916244835"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "kernel": "concave_hump",
+        "q": "1/2",
+        "minimum_offdiagonal": "136/155"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "kernel": "concave_hump",
+        "q": "1/16",
+        "minimum_offdiagonal": "48584/183248967"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/2",
+        "minimum_offdiagonal": "1/15"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/16",
+        "minimum_offdiagonal": "1/65535"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/2",
+        "minimum_offdiagonal": "56/465"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/16",
+        "minimum_offdiagonal": "229376/4581224175"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/2",
+        "minimum_offdiagonal": "77/93"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/16",
+        "minimum_offdiagonal": "544677/1527074725"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/2",
+        "minimum_offdiagonal": "34844987/43303838699205"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/16",
+        "minimum_offdiagonal": "6354504931913303794682191709/20601769798192183019768744773328365927157988384068575395"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25
+        ],
+        "kernel": "concave_hump",
+        "q": "1/2",
+        "minimum_offdiagonal": "349924784/80421414727095"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25
+        ],
+        "kernel": "concave_hump",
+        "q": "1/16",
+        "minimum_offdiagonal": "9163302910221201102247597456/7652085925042810835914105201521964487230109971225470861"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/2",
+        "minimum_offdiagonal": "1/16777215"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/16",
+        "minimum_offdiagonal": "1/79228162514264337593543950335"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/2",
+        "minimum_offdiagonal": "25165824/62549989232185"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/16",
+        "minimum_offdiagonal": "118842243771396506390315925504/743952798268051053491649116814635436258482913869143000375"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/2",
+        "minimum_offdiagonal": "2093796557/112589980617933"
+      },
+      {
+        "N": 6,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/16",
+        "minimum_offdiagonal": "49512319693914260040125399363311/6695575184412459481424842051331718926326346224822287003375"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/2",
+        "minimum_offdiagonal": "575/8001"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/16",
+        "minimum_offdiagonal": "135336209/300239956143855"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "kernel": "concave_hump",
+        "q": "1/2",
+        "minimum_offdiagonal": "2420/8001"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "kernel": "concave_hump",
+        "q": "1/16",
+        "minimum_offdiagonal": "34586876/23095381241835"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/2",
+        "minimum_offdiagonal": "1/63"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/16",
+        "minimum_offdiagonal": "1/16777215"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/2",
+        "minimum_offdiagonal": "32/889"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/16",
+        "minimum_offdiagonal": "8388608/33359995127095"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/2",
+        "minimum_offdiagonal": "439/1143"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/16",
+        "minimum_offdiagonal": "117280729/42891422306265"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25,
+          36,
+          49
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/2",
+        "minimum_offdiagonal": "2871044762448691/31691265005705566152431553741"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25,
+          36,
+          49
+        ],
+        "kernel": "strictly_decreasing_affine",
+        "q": "1/16",
+        "minimum_offdiagonal": "314273560218359816909378523788597165232857929252832661278993/42028806609487444493097642773486521392085055221829809779137732249228664984731344090828915316605660680690010617212655"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25,
+          36,
+          49
+        ],
+        "kernel": "concave_hump",
+        "q": "1/2",
+        "minimum_offdiagonal": "841523126248352/1633570361118843616104719265"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25,
+          36,
+          49
+        ],
+        "kernel": "concave_hump",
+        "q": "1/16",
+        "minimum_offdiagonal": "12968362760530833248172084540317694327700124031655592952416/433286666077190149413377760551407437031804693008554739991110641744625412213725196812669230068099594646288769249615"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25,
+          36,
+          49
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/2",
+        "minimum_offdiagonal": "1/281474976710655"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25,
+          36,
+          49
+        ],
+        "kernel": "zero_at_largest_gap",
+        "q": "1/16",
+        "minimum_offdiagonal": "1/6277101735386680763835789423207666416102355444464034512895"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25,
+          36,
+          49
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/2",
+        "minimum_offdiagonal": "140737488355328/3106986765265251583571720955"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25,
+          36,
+          49
+        ],
+        "kernel": "concave_piecewise_linear",
+        "q": "1/16",
+        "minimum_offdiagonal": "3138550867693340381917894711603833208051177722232017256448/824094247244851852805836132813461203766373631800584505473288867631934607543751844918214025815797268248823737592405"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25,
+          36,
+          49
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/2",
+        "minimum_offdiagonal": "96505706300796343/22636617861218261537451109815"
+      },
+      {
+        "N": 8,
+        "energies": [
+          0,
+          1,
+          4,
+          9,
+          16,
+          25,
+          36,
+          49
+        ],
+        "kernel": "concave_quadratic_positive",
+        "q": "1/16",
+        "minimum_offdiagonal": "2152986113316342105036020193213341888662002180732645132832729/6004115229926777784728234681926645913155007888832829968448247464175523569247334870118416473800808668670001516744665"
+      }
+    ],
+    "six_state_branch_witness": {
+      "origin": "physical_mpemba_frontier; independently checked here",
+      "energies": [
+        "0",
+        "1/2",
+        "501/1000",
+        "251/500",
+        "503/1000",
+        "1"
+      ],
+      "zero_bath_H_62": "-247/5000",
+      "thermal_H_62": "1277/436900",
+      "finite_bath_H_62": "-1015293/21845000",
+      "bath_inverse_temperature": "16 log 2",
+      "minimality_claimed": false
+    },
+    "nonconcave_cluster_witness": {
+      "kernel": "1+d^2",
+      "N": 16,
+      "energies": [
+        "0",
+        "1/4",
+        "247/500",
+        "99/200",
+        "62/125",
+        "497/1000",
+        "249/500",
+        "499/1000",
+        "1/2",
+        "501/1000",
+        "251/500",
+        "503/1000",
+        "63/125",
+        "101/200",
+        "253/500",
+        "3/4"
+      ],
+      "zero_bath_H_N2": "-1/240",
+      "thermal_H_N2": "1007/417690",
+      "finite_bath_H_N2": "-5867/3341520",
+      "numerical_H_N2": -0.0017557877851876458,
+      "bath_inverse_temperature": "16 log 2",
+      "scope": "Failure of cone invariance only; no actual thermal crossing claimed."
+    }
+  },
+  "finite_time_divergence_diagnostics": {
+    "numerical_divergence_comparisons": 684,
+    "worst_roundoff_or_violation": {
+      "cooling_KL": 2.1384618990583842e-16,
+      "cooling_reverse_KL": 2.2204460492503052e-16,
+      "cooling_chi2": 1.1104236810586326e-30,
+      "heating_chi2": 1.1104236810586326e-30,
+      "stochastic_order": -1.942890293094024e-16
+    },
+    "cases": [
+      {
+        "N": 4,
+        "kernel": "linear",
+        "time": 0.0,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "linear",
+        "time": 0.0,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "linear",
+        "time": 0.001,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "linear",
+        "time": 0.001,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "linear",
+        "time": 0.01,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "linear",
+        "time": 0.01,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "linear",
+        "time": 0.1,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "linear",
+        "time": 0.1,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "linear",
+        "time": 0.5,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "linear",
+        "time": 0.5,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "linear",
+        "time": 2.0,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "linear",
+        "time": 2.0,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "decreasing",
+        "time": 0.0,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "decreasing",
+        "time": 0.0,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "decreasing",
+        "time": 0.001,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "decreasing",
+        "time": 0.001,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "decreasing",
+        "time": 0.01,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "decreasing",
+        "time": 0.01,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "decreasing",
+        "time": 0.1,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "decreasing",
+        "time": 0.1,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "decreasing",
+        "time": 0.5,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "decreasing",
+        "time": 0.5,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "decreasing",
+        "time": 2.0,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "decreasing",
+        "time": 2.0,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "hump",
+        "time": 0.0,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "hump",
+        "time": 0.0,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "hump",
+        "time": 0.001,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "hump",
+        "time": 0.001,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "hump",
+        "time": 0.01,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "hump",
+        "time": 0.01,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "hump",
+        "time": 0.1,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "hump",
+        "time": 0.1,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "hump",
+        "time": 0.5,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "hump",
+        "time": 0.5,
+        "side": "heating"
+      },
+      {
+        "N": 4,
+        "kernel": "hump",
+        "time": 2.0,
+        "side": "cooling"
+      },
+      {
+        "N": 4,
+        "kernel": "hump",
+        "time": 2.0,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "linear",
+        "time": 0.0,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "linear",
+        "time": 0.0,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "linear",
+        "time": 0.001,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "linear",
+        "time": 0.001,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "linear",
+        "time": 0.01,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "linear",
+        "time": 0.01,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "linear",
+        "time": 0.1,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "linear",
+        "time": 0.1,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "linear",
+        "time": 0.5,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "linear",
+        "time": 0.5,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "linear",
+        "time": 2.0,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "linear",
+        "time": 2.0,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "decreasing",
+        "time": 0.0,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "decreasing",
+        "time": 0.0,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "decreasing",
+        "time": 0.001,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "decreasing",
+        "time": 0.001,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "decreasing",
+        "time": 0.01,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "decreasing",
+        "time": 0.01,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "decreasing",
+        "time": 0.1,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "decreasing",
+        "time": 0.1,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "decreasing",
+        "time": 0.5,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "decreasing",
+        "time": 0.5,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "decreasing",
+        "time": 2.0,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "decreasing",
+        "time": 2.0,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "hump",
+        "time": 0.0,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "hump",
+        "time": 0.0,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "hump",
+        "time": 0.001,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "hump",
+        "time": 0.001,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "hump",
+        "time": 0.01,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "hump",
+        "time": 0.01,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "hump",
+        "time": 0.1,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "hump",
+        "time": 0.1,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "hump",
+        "time": 0.5,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "hump",
+        "time": 0.5,
+        "side": "heating"
+      },
+      {
+        "N": 6,
+        "kernel": "hump",
+        "time": 2.0,
+        "side": "cooling"
+      },
+      {
+        "N": 6,
+        "kernel": "hump",
+        "time": 2.0,
+        "side": "heating"
+      }
+    ],
+    "TV_proof_obstruction": {
+      "b": [
+        "1/10",
+        "7/5",
+        "4/5",
+        "4"
+      ],
+      "prefix_margins": [
+        "13/10",
+        "1/20",
+        "97/30"
+      ],
+      "sign_at_one_prefix_margins": [
+        "2",
+        "-1",
+        "4/3"
+      ]
+    }
+  },
+  "noncommuting_protocol": {
+    "energies": [
+      0.0,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "bath_inverse_temperature": "log 2",
+    "kernels": [
+      "d",
+      "1"
+    ],
+    "durations": [
+      0.07,
+      0.13
+    ],
+    "generator_commutator_maximum": 4.723809523809523,
+    "K_minus_adjoint_maximum": 0.01685082892266898,
+    "adjoint_product_orientation_error": 5.551115123125783e-17,
+    "row_density_orientation_error": 2.220446049250313e-16,
+    "power_divergence_comparisons": 42,
+    "largest_violation_or_roundoff": 0.0,
+    "scope": "Floating-point check of a genuinely noncommuting two-stage protocol; proof remains analytic."
+  },
+  "positive_bath_hierarchy": {
+    "precision_decimal_digits": 80,
+    "energies": [
+      "0",
+      "1",
+      "2",
+      "1555"
+    ],
+    "beta_b": "10",
+    "beta_h": "0.00001",
+    "beta_c": "0.00002",
+    "slow_eigenvalue": "-1.0000605354535284587145406271022292093922794169353225102034187146401662563141836",
+    "backward_eigenfunction_quotient_residual": "3E-80",
+    "relative_detailed_balance_residual": "3E-80",
+    "minimum_positive_rate": "1.0463078432218879533120265146480450499858724160695031667291170755416021180138132E-6753",
+    "slow_amplitude_hot": "0.55522332667697124414140279801558843557858799708189010672016887774946076157802679",
+    "slow_amplitude_cold": "0.55522495092079148633973640981499468033081762681010470707087024885002643362090938",
+    "initial_TV_hot_minus_cold": "0.00096242618539024084474567657379985963936287616671845253595229570645996633910825",
+    "time_10_TV_hot_minus_cold": "-7.3692408176759704021021720692619205636762440027208774269759454747926197460E-11",
+    "uniformization_terms": [
+      220,
+      220
+    ],
+    "proper_subsystems": [
+      {
+        "subset_one_based": [
+          1,
+          2
+        ],
+        "minimum_prefix_margin": "1",
+        "residual": "0E-79"
+      },
+      {
+        "subset_one_based": [
+          1,
+          3
+        ],
+        "minimum_prefix_margin": "1",
+        "residual": "0E-79"
+      },
+      {
+        "subset_one_based": [
+          1,
+          4
+        ],
+        "minimum_prefix_margin": "1",
+        "residual": "0E-79"
+      },
+      {
+        "subset_one_based": [
+          2,
+          3
+        ],
+        "minimum_prefix_margin": "1",
+        "residual": "0E-79"
+      },
+      {
+        "subset_one_based": [
+          2,
+          4
+        ],
+        "minimum_prefix_margin": "1",
+        "residual": "0E-79"
+      },
+      {
+        "subset_one_based": [
+          3,
+          4
+        ],
+        "minimum_prefix_margin": "1",
+        "residual": "0E-80"
+      },
+      {
+        "subset_one_based": [
+          1,
+          2,
+          3
+        ],
+        "minimum_prefix_margin": "0.16666330318300217007014126157133140303808998408917763665797268375591204207683849",
+        "residual": "3E-80"
+      },
+      {
+        "subset_one_based": [
+          1,
+          2,
+          4
+        ],
+        "minimum_prefix_margin": "0.00250121285929994513349077932167766503359974580807552780114559141882111620179452",
+        "residual": "0E-79"
+      },
+      {
+        "subset_one_based": [
+          1,
+          3,
+          4
+        ],
+        "minimum_prefix_margin": "0.15248226874153819434928249262482391682639938151983014045110002941681354525021254",
+        "residual": "2E-80"
+      },
+      {
+        "subset_one_based": [
+          2,
+          3,
+          4
+        ],
+        "minimum_prefix_margin": "0.5000000000000000000000000000000000000000000000000000000000000000000000000000001",
+        "residual": "1E-79"
+      }
+    ],
+    "scope": "80-digit numerical witness, not an interval-arithmetic proof; analytic continuation proves existence."
+  },
+  "elapsed_seconds": 0.29647514499811223,
+  "script_sha256": "af66646500999ab303c15eae7b7e702c158ace11b6377a344125ab369d6153fa"
+}

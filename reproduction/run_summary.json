@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "scope": "Finite formula and certificate reproduction, not an automated proof of all-N theorems.",
+  "checks": [
+    {
+      "check": "concave_kernel",
+      "script": "physical_frontier/verify_concave_kernel.py",
+      "script_sha256": "f9cee9ffdacc072c3ada2f0f6aca0eace43ab108849cd2c4b55ff3b210f53c08",
+      "exit_code": 0,
+      "elapsed_seconds": 0.7050056669977494,
+      "comparison": "exact",
+      "matches_retained_output_except_runtime_metadata": true,
+      "status": "PASS"
+    },
+    {
+      "check": "metric_protocol",
+      "script": "physical_frontier/verify_metric_protocol.py",
+      "script_sha256": "7d30a832d40dd0520ddd38d59ba7941b426badaa73e16ecb5599dc905036207c",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6180904590000864,
+      "comparison": "exact",
+      "matches_retained_output_except_runtime_metadata": true,
+      "status": "PASS"
+    },
+    {
+      "check": "hierarchy",
+      "script": "global_frontier/verify_hierarchy.py",
+      "script_sha256": "d3d3002684dac5611c7bb015de8f478ec4f867c6fc7f774e62b79584c58f2f50",
+      "exit_code": 0,
+      "elapsed_seconds": 1.675614832987776,
+      "comparison": "exact",
+      "matches_retained_output_except_runtime_metadata": true,
+      "status": "PASS"
+    },
+    {
+      "check": "metric_boundary",
+      "script": "metric_sharpness/certify_counterexamples.py",
+      "script_sha256": "3dba5085d9f8567239946cfeec0326cf6b21ee847c1b43207ff21851a5b8713d",
+      "exit_code": 0,
+      "elapsed_seconds": 0.14371050000772811,
+      "comparison": "exact",
+      "matches_retained_output_except_runtime_metadata": true,
+      "status": "PASS"
+    },
+    {
+      "check": "ext_bath_thresholds",
+      "script": "extensions/e1_threshold_check.py",
+      "script_sha256": "146a4dfade82d276121d32b50f704def9263bd0dc585d11655b30f7b8658324c",
+      "exit_code": 0,
+      "elapsed_seconds": 0.04999145900364965,
+      "comparison": "exact",
+      "matches_retained_output_except_runtime_metadata": true,
+      "status": "PASS"
+    },
+    {
+      "check": "ext_superohmic_kl_crossing",
+      "script": "extensions/e2_superohmic_certificate.py",
+      "script_sha256": "cda36152ff44b04675f959fcf73acb9382d5bd2222a86a43615e88257acc95bb",
+      "exit_code": 0,
+      "elapsed_seconds": 57.40255554197938,
+      "comparison": "exact",
+      "matches_retained_output_except_runtime_metadata": true,
+      "status": "PASS"
+    },
+    {
+      "check": "ext_hierarchy_n4_finite_bath",
+      "script": "extensions/e3_hierarchy_n4_certificate.py",
+      "script_sha256": "c514062839a43e6a26550429eb27a3e1583d9205687953379f27623afbffeea8",
+      "exit_code": 0,
+      "elapsed_seconds": 20.419474333000835,
+      "comparison": "exact",
+      "matches_retained_output_except_runtime_metadata": true,
+      "status": "PASS"
+    },
+    {
+      "check": "ext_tv_certificate_table",
+      "script": "extensions/c1_prop5_certificate.py",
+      "script_sha256": "28d5e54c90133a54b3891854846da7dc5c75057a871d0721d2e706315fb9c00d",
+      "exit_code": 0,
+      "elapsed_seconds": 44.791964292002376,
+      "comparison": "exact",
+      "matches_retained_output_except_runtime_metadata": true,
+      "status": "PASS"
+    }
+  ]
+}

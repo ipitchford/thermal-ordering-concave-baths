@@ -1,0 +1,1235 @@
+{
+  "status": "PASS",
+  "matrix_cases": 96,
+  "exact_assertions": 5859,
+  "finite_nonconcave_H_32": "-327/340",
+  "scope": "Exact finite formula and orientation audit; universal statements rely on the written proofs.",
+  "cases": [
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "kernel": "linear",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1/4"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "kernel": "linear",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "3/10"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "kernel": "constant",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "2/3"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "kernel": "constant",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "6/5"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "5/12"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "7/10"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1/4"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "2/5"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        4
+      ],
+      "kernel": "linear",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "17/140"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        4
+      ],
+      "kernel": "linear",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "258/1235"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        4
+      ],
+      "kernel": "constant",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "8/105"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        4
+      ],
+      "kernel": "constant",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "216/1235"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        4
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "113/840"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        4
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "367/1235"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        4
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1/16"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        4
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "34/247"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "kernel": "linear",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "5/28"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "kernel": "linear",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "24/95"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "kernel": "constant",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "4/21"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "kernel": "constant",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "36/95"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "29/126"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "124/285"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1/8"
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "22/95"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kernel": "linear",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "10/63"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kernel": "linear",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "64/285"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kernel": "constant",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "4/21"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kernel": "constant",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "36/95"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "29/126"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "124/285"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1/8"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "22/95"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        4,
+        9
+      ],
+      "kernel": "linear",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "3586/390915"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        4,
+        9
+      ],
+      "kernel": "linear",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "20417536/362619465"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        4,
+        9
+      ],
+      "kernel": "constant",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "256/130305"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        4,
+        9
+      ],
+      "kernel": "constant",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "1679616/120873155"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        4,
+        9
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "4045/469098"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        4,
+        9
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "13114112/217571679"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        4,
+        9
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1/512"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        4,
+        9
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "333350/24174631"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        2,
+        6,
+        10
+      ],
+      "kernel": "linear",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1252/86955"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        2,
+        6,
+        10
+      ],
+      "kernel": "linear",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "868352/8780343"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        2,
+        6,
+        10
+      ],
+      "kernel": "constant",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "256/86955"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        2,
+        6,
+        10
+      ],
+      "kernel": "constant",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "1679616/73169525"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        2,
+        6,
+        10
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "6059/434775"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        2,
+        6,
+        10
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "7803904/73169525"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        2,
+        6,
+        10
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "3/1024"
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        2,
+        6,
+        10
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "151752/6651775"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "kernel": "linear",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "17/168"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "kernel": "linear",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "43/247"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "kernel": "constant",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "8/105"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "kernel": "constant",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "216/1235"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "113/840"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "367/1235"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1/16"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "34/247"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16
+      ],
+      "kernel": "linear",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "458753/3435816552"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16
+      ],
+      "kernel": "linear",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "764319035392/123064923768943"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16
+      ],
+      "kernel": "constant",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "32768/2147385345"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16
+      ],
+      "kernel": "constant",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "470184984576/615324618844715"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "8323073/68716331040"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "3717467143168/615324618844715"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1/65536"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "5531250818/7239113162879"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        6,
+        9
+      ],
+      "kernel": "linear",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1793/208488"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        6,
+        9
+      ],
+      "kernel": "linear",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "1276096/24174631"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        6,
+        9
+      ],
+      "kernel": "constant",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "256/130305"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        6,
+        9
+      ],
+      "kernel": "constant",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "1679616/120873155"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        6,
+        9
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "4045/469098"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        6,
+        9
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "13114112/217571679"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        6,
+        9
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1/512"
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        6,
+        9
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "333350/24174631"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "kernel": "linear",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "43/1116"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "kernel": "linear",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "6344/60135"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "kernel": "constant",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "32/1953"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "kernel": "constant",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "7776/140315"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "121/2604"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "64664/420945"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1/64"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "1046/20045"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ],
+      "kernel": "linear",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "129803456057/449749188825093979380"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ],
+      "kernel": "linear",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "14182334688220296734692081664/3218339108412037390746512416102935"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ],
+      "kernel": "constant",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "34359738368/2361183241331743391745"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ],
+      "kernel": "constant",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "1719070799748422591028658176/7509457919628087245075195637573515"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1646722275859/6296488643551315711320"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "277844818304486706454359703552/67585121276652785205676760738161635"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "1/68719476736"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        1,
+        4,
+        9,
+        16,
+        25,
+        36
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "1036921388872733414/4529608400826130675308317"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        3,
+        6,
+        8,
+        11,
+        15,
+        18
+      ],
+      "kernel": "linear",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "53053/233731692"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        3,
+        6,
+        8,
+        11,
+        15,
+        18
+      ],
+      "kernel": "linear",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "28334268416/2193356819165"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        3,
+        6,
+        8,
+        11,
+        15,
+        18
+      ],
+      "kernel": "constant",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "32768/1227091383"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        3,
+        6,
+        8,
+        11,
+        15,
+        18
+      ],
+      "kernel": "constant",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "470184984576/291716456948945"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        3,
+        6,
+        8,
+        11,
+        15,
+        18
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "126911/545373948"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        3,
+        6,
+        8,
+        11,
+        15,
+        18
+      ],
+      "kernel": "concave_quadratic",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "4064738484224/291716456948945"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        3,
+        6,
+        8,
+        11,
+        15,
+        18
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "1/2",
+      "minimum_offdiagonal_H": "7/262144"
+    },
+    {
+      "N": 7,
+      "E": [
+        0,
+        3,
+        6,
+        8,
+        11,
+        15,
+        18
+      ],
+      "kernel": "concave_exponential",
+      "bath_q": "2/3",
+      "minimum_offdiagonal_H": "67166480186/41673779564135"
+    }
+  ],
+  "elapsed_seconds": 0.6232152500015218,
+  "script_sha256": "f9cee9ffdacc072c3ada2f0f6aca0eace43ab108849cd2c4b55ff3b210f53c08"
+}

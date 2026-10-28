@@ -1,0 +1,193 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 28 October 2026 for release 1.0.0-candidate from the dated bounded prior-art gates of 26 October 2026, the round-1 domain review, the 28 October reference audit and the verification re-review, proof audit and final outside-model audit. It documents the scrutiny performed, not historical priority. No new search was run at release preparation.",
+ "contributionMap": [
+  {
+   "claim": "All-time divergence ordering of Gibbs preparations under two-adjoint prefix-mean cone preservation, including noncommuting schedules.",
+   "unit": "statement",
+   "paperLocation": "Theorem 2, Corollary 3",
+   "searches": [
+    {
+     "date": "2026-10-26",
+     "corpus": "two live web search engines, arXiv abstract/HTML pages, publisher pages; bounded prior-art gates (development reports retained privately; summary PRIOR_ART.md)",
+     "query": "\"Mpemba\" \"f-divergence\" ordering; \"Markov prefix means\"; \"Mpemba no-Mpemba f-divergence\"; thermomajorization Mpemba; increasing-in-mean Markov operator cone"
+    },
+    {
+     "date": "2026-10-28",
+     "query": "Crossref and arXiv records for every bibliography entry; full reading of Avitan et al. v1 rate equation and exclusion statements",
+     "corpus": "api.crossref.org, export.arxiv.org"
+    }
+   ],
+   "closestPriorWork": "Ohga-Hayakawa-Ito 2024 (KL covariance identity, monotone no-Mpemba); Van Vu-Hayakawa 2025 thermomajorization",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Concavity characterisation of cone preservation for complete-graph bosonic rates, uniform in N and bath temperature.",
+   "unit": "statement",
+   "paperLocation": "Theorem 4, Lemma 5",
+   "searches": [
+    {
+     "date": "2026-10-26",
+     "corpus": "two live web search engines, arXiv abstract/HTML pages, publisher pages; bounded prior-art gates (development reports retained privately; summary PRIOR_ART.md)",
+     "query": "\"Mpemba concave ordering\"; concave spectral density Mpemba; bosonic Davies population generator monotone; Mobius monotone Markov chain"
+    },
+    {
+     "date": "2026-10-28",
+     "query": "Crossref and arXiv records for every bibliography entry; full reading of Avitan et al. v1 rate equation and exclusion statements",
+     "corpus": "api.crossref.org, export.arxiv.org"
+    }
+   ],
+   "closestPriorWork": "Avitan-Factor-Gelbwaser-Klimovsky 2026 (slow-mode exclusion for s<=2); Klich-Vucelja 2026 (complete-graph Metropolis)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Standard spectral density thresholds and certified super-Ohmic crossing.",
+   "unit": "statement",
+   "paperLocation": "Propositions 6 and 8",
+   "searches": [
+    {
+     "date": "2026-10-28",
+     "query": "Crossref and arXiv records for every bibliography entry; full reading of Avitan et al. v1 rate equation and exclusion statements",
+     "corpus": "api.crossref.org, export.arxiv.org"
+    }
+   ],
+   "closestPriorWork": "Avitan et al. 2026 spectral discussion (different convention, slow-mode criterion)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Certified TV reversal inside the cone-preserving class.",
+   "unit": "statement",
+   "paperLocation": "Proposition 9",
+   "searches": [
+    {
+     "date": "2026-10-26",
+     "corpus": "two live web search engines, arXiv abstract/HTML pages, publisher pages; bounded prior-art gates (development reports retained privately; summary PRIOR_ART.md)",
+     "query": "total variation Mpemba reversal reversible; metric dependence Mpemba; thermomajorization total variation"
+    }
+   ],
+   "closestPriorWork": "Metric dependence and thermomajorization are established concepts",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Unbounded minimal induced-level anomaly order.",
+   "unit": "statement",
+   "paperLocation": "Theorem 10",
+   "searches": [
+    {
+     "date": "2026-10-26",
+     "corpus": "two live web search engines, arXiv abstract/HTML pages, publisher pages; bounded prior-art gates (development reports retained privately; summary PRIOR_ART.md)",
+     "query": "Mpemba N-level collective anomaly triplet; induced subsystem Mpemba; lumpability Mpemba"
+    },
+    {
+     "date": "2026-10-28",
+     "query": "Crossref and arXiv records for every bibliography entry; full reading of Avitan et al. v1 rate equation and exclusion statements",
+     "corpus": "api.crossref.org, export.arxiv.org"
+    }
+   ],
+   "closestPriorWork": "Gelbwaser-Klimovsky 2026 (four-level collective anomaly); Avitan et al. three-level conditions (not refuted)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Gibbs likelihood-ratio comparison, stochastic orders and invariant-cone tools.",
+   "unit": "method",
+   "paperLocation": "Lemma 1, Sec. 2, Sec. 4.1",
+   "searches": [
+    {
+     "date": "2026-10-28",
+     "query": "Crossref and arXiv records for every bibliography entry; full reading of Avitan et al. v1 rate equation and exclusion statements",
+     "corpus": "api.crossref.org, export.arxiv.org"
+    }
+   ],
+   "closestPriorWork": "Biernacki 1951; Dragomir 2004; Daley 1968; Keilson-Kester 1977; Massey 1987; Shaked-Shanthikumar 2007",
+   "verdict": "known-cited"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "Avitan, Factor, Gelbwaser-Klimovsky, arXiv:2603.04567v1 (2026)",
+   "usedFor": "Closest antecedent; rate convention Eq. (5); scope of proofs",
+   "readWhat": "Full v1 PDF and supplement text",
+   "date": "2026-10-28",
+   "evidenceLocator": "paper Sec. 1.2, 4.5; PRIOR_ART.md"
+  },
+  {
+   "citation": "Ohga, Hayakawa, Ito, arXiv:2410.06623v2 (2024)",
+   "usedFor": "KL covariance derivative; monotone-coupling hypotheses",
+   "readWhat": "Main text and Appendix B",
+   "date": "2026-10-26",
+   "evidenceLocator": "paper Sec. 1.2, 4.4"
+  },
+  {
+   "citation": "Klich, Vucelja, J. Phys. A 59, 255002 (2026), doi:10.1088/1751-8121/ae7228",
+   "usedFor": "Complete-graph Metropolis no-Mpemba",
+   "readWhat": "Abstract and record of version of record",
+   "date": "2026-10-28",
+   "evidenceLocator": "paper Table 1"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "Priority holds only within a bounded search.",
+   "closingQuestion": "Has an all-time cone-based ordering theorem for bosonic rates appeared earlier?",
+   "triedOrSearched": "Two web engines, arXiv, publisher pages, 26 October 2026; references refreshed 28 October.",
+   "estimatedCost": "days",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "Exhaustive search out of scope; disclosed."
+  },
+  {
+   "limitation": "No explicit q_0(N); finite-bath hierarchy existential.",
+   "closingQuestion": "Explicit threshold or certified q-interval for N=4?",
+   "triedOrSearched": "Remark 11 certificate at q=1/1000 and 1/100.",
+   "estimatedCost": "days",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "Needs a monotonicity or perturbation bound; stated in the paper."
+  },
+  {
+   "limitation": "TV order for the concave physical class unknown.",
+   "closingQuestion": "Prove or refute TV order for concave J.",
+   "triedOrSearched": "metric_probe/ numerical search found no reversal.",
+   "estimatedCost": "weeks",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "New research."
+  },
+  {
+   "limitation": "Complete graph and common coupling only.",
+   "closingQuestion": "Sparse graphs, harmonic ladder, arbitrary couplings?",
+   "triedOrSearched": "Not attempted.",
+   "estimatedCost": "weeks",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "New research."
+  },
+  {
+   "limitation": "Unrefereed; no formalisation.",
+   "closingQuestion": "Formalise the rational certificates?",
+   "triedOrSearched": "Not attempted.",
+   "estimatedCost": "days",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "Out of scope for this release."
+  }
+ ],
+ "extensionScout": {
+  "by": "Internal AI-assisted reviewers and the editor, 28 October 2026",
+  "date": "2026-10-28",
+  "proposals": [
+   "Bath spectral-density classification",
+   "Certified super-Ohmic crossing",
+   "Certified finite-bath N=4 hierarchy instance",
+   "Sparse-graph scope",
+   "Schematic crossing figure"
+  ],
+  "actions": [
+   "Proposition 6 and Corollary 7 added",
+   "Proposition 8 added",
+   "Remark 11 added (no explicit q_0(4))",
+   "Declined: stated as open in Sec. 7.1",
+   "Figure 1 added (illustrative)"
+  ]
+ }
+}

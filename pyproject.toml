@@ -1,0 +1,10 @@
+[project]
+name = "thermal-ordering-concave-baths"
+version = "1.0.0rc0"
+description = "Replay environment for the optional floating-point audit and figures (the default exact checks need only the Python standard library)."
+requires-python = ">=3.11,<3.12"
+dependencies = ["numpy==2.4.6", "scipy", "matplotlib==3.11.2"]
+license = "MIT"
+
+[tool.uv]
+package = false

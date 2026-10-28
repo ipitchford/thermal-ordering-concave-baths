@@ -1,0 +1,376 @@
+{
+  "construction": "Sec. 6, eps=1/100, m=1, C=199/100, z=23/25, E=(0,1,2,1555); upward rates a_ij q^(E_j-E_i)",
+  "preparations": "u=e^{-beta}: u_hot=1-1e-5, u_cold=1-2e-5 (beta ~ 1e-5, 2e-5), both hotter than the bath (cooling side), beta_h<beta_c<beta_b",
+  "results": [
+    {
+      "L": 1555,
+      "q": "1/10",
+      "certified": false,
+      "failure": "('margin fails', (1, 2, 4))"
+    },
+    {
+      "L": 1555,
+      "q": "1/20",
+      "certified": false,
+      "failure": "('margin fails', (1, 2, 4))"
+    },
+    {
+      "L": 1555,
+      "q": "1/50",
+      "certified": false,
+      "failure": "('margin fails', (1, 2, 4))"
+    },
+    {
+      "L": 1555,
+      "q": "1/100",
+      "u_hot": "99999/100000",
+      "u_cold": "49999/50000",
+      "triple_124_H32_formula": "(eps-q)/2 + q^(L-1)(1-Cq)/4 verified exactly",
+      "proper_subsystems": [
+        {
+          "states": [
+            1,
+            2
+          ],
+          "margins_positive": true,
+          "reason": "two-state: eigenfunction (-pi2,pi1) increasing"
+        },
+        {
+          "states": [
+            1,
+            3
+          ],
+          "margins_positive": true,
+          "reason": "two-state: eigenfunction (-pi2,pi1) increasing"
+        },
+        {
+          "states": [
+            1,
+            4
+          ],
+          "margins_positive": true,
+          "reason": "two-state: eigenfunction (-pi2,pi1) increasing"
+        },
+        {
+          "states": [
+            2,
+            3
+          ],
+          "margins_positive": true,
+          "reason": "two-state: eigenfunction (-pi2,pi1) increasing"
+        },
+        {
+          "states": [
+            2,
+            4
+          ],
+          "margins_positive": true,
+          "reason": "two-state: eigenfunction (-pi2,pi1) increasing"
+        },
+        {
+          "states": [
+            3,
+            4
+          ],
+          "margins_positive": true,
+          "reason": "two-state: eigenfunction (-pi2,pi1) increasing"
+        },
+        {
+          "states": [
+            1,
+            2,
+            3
+          ],
+          "margins_positive": true,
+          "H_decimal": [
+            [
+              "-1.015075",
+              "0.00985"
+            ],
+            [
+              "0.2474625",
+              "-2.505075"
+            ]
+          ]
+        },
+        {
+          "states": [
+            1,
+            2,
+            4
+          ],
+          "margins_positive": true,
+          "H_decimal": [
+            [
+              "-1.0100000",
+              "9.801E-3109"
+            ],
+            [
+              "2.45025E-3109",
+              "-2.9900000"
+            ]
+          ]
+        },
+        {
+          "states": [
+            1,
+            3,
+            4
+          ],
+          "margins_positive": true,
+          "H_decimal": [
+            [
+              "-1.5001500",
+              "9.19801E-3107"
+            ],
+            [
+              "0.21492500",
+              "-2.9100000"
+            ]
+          ]
+        },
+        {
+          "states": [
+            2,
+            3,
+            4
+          ],
+          "margins_positive": true,
+          "H_decimal": [
+            [
+              "-1.0100000",
+              "9.1E-3107"
+            ],
+            [
+              "0.45500000",
+              "-1.9200000"
+            ]
+          ]
+        }
+      ],
+      "full_eigenvalue_brackets": [
+        [
+          "-3.910000000000000000000000",
+          "-3.91"
+        ],
+        [
+          "-2.506709117640628581528906",
+          "-2.506709117640628581528906"
+        ],
+        [
+          "-1.013440882359371418471094",
+          "-1.013440882359371418471094"
+        ]
+      ],
+      "slow_amplitude_hot": [
+        "2.35398091511687",
+        "2.35398091511687"
+      ],
+      "slow_amplitude_cold": [
+        "2.35399911655940",
+        "2.35399911655940"
+      ],
+      "slow_amplitude_ratio_cold_over_hot_lower": "1.00000773219630",
+      "TV0_hot": "0.73903100358690270483",
+      "TV0_cold": "0.73806856305954100078",
+      "TV0_gap": "0.00096244052736170404892",
+      "t_star": "10",
+      "TVt_hot": [
+        "0.000021671875087160698273",
+        "0.000021671875087160698273"
+      ],
+      "TVt_cold": [
+        "0.000021672042654351518495",
+        "0.000021672042654351518495"
+      ],
+      "TVt_hot_minus_cold": [
+        "-1.6756719082022219227E-10",
+        "-1.6756719082022219227E-10"
+      ],
+      "positive_set": [
+        2,
+        3,
+        4
+      ],
+      "min_upward_rate_log10": -3106.0,
+      "beta_b_decimal": 4.605170185988092,
+      "certified": true
+    },
+    {
+      "L": 1555,
+      "q": "1/1000",
+      "u_hot": "99999/100000",
+      "u_cold": "49999/50000",
+      "triple_124_H32_formula": "(eps-q)/2 + q^(L-1)(1-Cq)/4 verified exactly",
+      "proper_subsystems": [
+        {
+          "states": [
+            1,
+            2
+          ],
+          "margins_positive": true,
+          "reason": "two-state: eigenfunction (-pi2,pi1) increasing"
+        },
+        {
+          "states": [
+            1,
+            3
+          ],
+          "margins_positive": true,
+          "reason": "two-state: eigenfunction (-pi2,pi1) increasing"
+        },
+        {
+          "states": [
+            1,
+            4
+          ],
+          "margins_positive": true,
+          "reason": "two-state: eigenfunction (-pi2,pi1) increasing"
+        },
+        {
+          "states": [
+            2,
+            3
+          ],
+          "margins_positive": true,
+          "reason": "two-state: eigenfunction (-pi2,pi1) increasing"
+        },
+        {
+          "states": [
+            2,
+            4
+          ],
+          "margins_positive": true,
+          "reason": "two-state: eigenfunction (-pi2,pi1) increasing"
+        },
+        {
+          "states": [
+            3,
+            4
+          ],
+          "margins_positive": true,
+          "reason": "two-state: eigenfunction (-pi2,pi1) increasing"
+        },
+        {
+          "states": [
+            1,
+            2,
+            3
+          ],
+          "margins_positive": true,
+          "H_decimal": [
+            [
+              "-1.0015008",
+              "0.0009985"
+            ],
+            [
+              "0.24974962",
+              "-2.5005008"
+            ]
+          ]
+        },
+        {
+          "states": [
+            1,
+            2,
+            4
+          ],
+          "margins_positive": true,
+          "H_decimal": [
+            [
+              "-1.0010000",
+              "9.9801E-4663"
+            ],
+            [
+              "0.0045000000",
+              "-2.9900000"
+            ]
+          ]
+        },
+        {
+          "states": [
+            1,
+            3,
+            4
+          ],
+          "margins_positive": true,
+          "H_decimal": [
+            [
+              "-1.5000015",
+              "9.1999801E-4660"
+            ],
+            [
+              "0.21499925",
+              "-2.9100000"
+            ]
+          ]
+        },
+        {
+          "states": [
+            2,
+            3,
+            4
+          ],
+          "margins_positive": true,
+          "H_decimal": [
+            [
+              "-1.0010000",
+              "9.19E-4660"
+            ],
+            [
+              "0.45950000",
+              "-1.9200000"
+            ]
+          ]
+        }
+      ],
+      "full_eigenvalue_brackets": [
+        [
+          "-3.910000000000000000000000",
+          "-3.91"
+        ],
+        [
+          "-2.500667092448800685117712",
+          "-2.500667092448800685117712"
+        ],
+        [
+          "-1.001334407551199314882288",
+          "-1.001334407551199314882288"
+        ]
+      ],
+      "slow_amplitude_hot": [
+        "2.41673678786979",
+        "2.41673678786979"
+      ],
+      "slow_amplitude_cold": [
+        "2.41674493273271",
+        "2.41674493273271"
+      ],
+      "slow_amplitude_ratio_cold_over_hot_lower": "1.00000337019032",
+      "TV0_hot": "0.74803001458491270483",
+      "TV0_cold": "0.74706757405755100079",
+      "TV0_gap": "0.00096244052736170404892",
+      "t_star": "10",
+      "TVt_hot": [
+        "0.000024833738897957789552",
+        "0.000024833738897957789552"
+      ],
+      "TVt_cold": [
+        "0.000024833822588139992053",
+        "0.000024833822588139992053"
+      ],
+      "TVt_hot_minus_cold": [
+        "-8.3690182202501210648E-11",
+        "-8.3690182202501210648E-11"
+      ],
+      "positive_set": [
+        2,
+        3,
+        4
+      ],
+      "min_upward_rate_log10": -4659.0,
+      "beta_b_decimal": 6.907755278982137,
+      "certified": true
+    }
+  ]
+}

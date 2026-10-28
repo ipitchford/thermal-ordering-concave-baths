@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "matrix_cases": 96,
+  "exact_assertions": 5859,
+  "finite_nonconcave_H_32": "-327/340",
+  "scope": "Exact finite formula and orientation audit; universal statements rely on the written proofs.",
+  "elapsed_seconds": 0.6232152500015218,
+  "script_sha256": "f9cee9ffdacc072c3ada2f0f6aca0eace43ab108849cd2c4b55ff3b210f53c08"
+}

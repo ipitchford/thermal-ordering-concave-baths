@@ -1,0 +1,42 @@
+date: 2026-10-26
+status: frozen_before_metric_novelty_gate
+object:
+  type: finite-time ordering theorem for Gibbs-prepared reversible Markov dynamics
+  state_space: finite strictly ordered nondegenerate energy levels
+  bath: fixed finite positive inverse temperature
+  observable_cone: "b_j >= arithmetic mean of b_1,...,b_(j-1)"
+  operator_condition: "K and its pi-adjoint both preserve the cone"
+  propagation: "p_beta^K / pi = K (p_beta / pi)"
+target_formula: "d_beta D_f(p_beta^K || pi) = -Cov_p_beta(E, K*_pi f'(K(p_beta/pi)))"
+claim:
+  cooling: "f'' >= 0 and f''' <= 0 imply d_beta D_f <= 0 for 0 <= beta <= beta_b"
+  heating: "f'' >= 0 and f''' >= 0 imply d_beta D_f >= 0 for beta >= beta_b"
+  strictness: "K invertible and f' strictly increasing give strict signs away from beta_b"
+  physical_class: complete graph with uniform pair couplings and nonnegative concave bosonic spontaneous jump weight
+  protocols: finite products of possibly noncommuting stages sharing pi and individually reversible/cone preserving
+fingerprints:
+  composition: "increasing concave phi preserves C; increasing convex phi preserves -C"
+  power_divergence: "f_alpha=(x^alpha-alpha*x+alpha-1)/(alpha*(alpha-1)); f_alpha'''=(alpha-2)*x^(alpha-3)"
+  renyi: "cooling 0<alpha<=2; heating alpha>=2"
+  separator: "E=(0,1,2), beta_b=log 2, J(d)=d; downward rates 2<8/3 violate ordinary monotone coupling"
+known_methods_not_claimed_new:
+  - Jensen composition and invariant-cone methods
+  - adjoint differentiation of f-divergences
+  - power/Cressie-Read and Renyi normalisations
+  - Gibbs mean/covariance ordering
+nonclaims:
+  - all convex f
+  - total variation at positive bath temperature
+  - thermomajorization
+  - arbitrary coherences
+  - schedules depending on initial temperature
+  - changing the bath or energy spectrum during a protocol
+  - no advantage of control over static dynamics
+aliases_to_search:
+  - Mpemba f-divergence concave derivative
+  - thermal preparation Renyi no crossing alpha two
+  - cone-preserving Markov Gibbs relative entropy monotonicity
+  - increasing-in-mean order concave transform Markov entropy
+  - thermomajorization no-Mpemba theorem
+  - power divergence ordering Markov likelihood ratio
+  - time-dependent thermal protocol no Mpemba

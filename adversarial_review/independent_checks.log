@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "elapsed_seconds": 0.29647514499811223,
+  "script_sha256": "af66646500999ab303c15eae7b7e702c158ace11b6377a344125ab369d6153fa",
+  "proper_subsystems_checked": 2871,
+  "rational_concave_models": 80,
+  "nonconcave_cluster_witness": {
+    "kernel": "1+d^2",
+    "N": 16,
+    "energies": [
+      "0",
+      "1/4",
+      "247/500",
+      "99/200",
+      "62/125",
+      "497/1000",
+      "249/500",
+      "499/1000",
+      "1/2",
+      "501/1000",
+      "251/500",
+      "503/1000",
+      "63/125",
+      "101/200",
+      "253/500",
+      "3/4"
+    ],
+    "zero_bath_H_N2": "-1/240",
+    "thermal_H_N2": "1007/417690",
+    "finite_bath_H_N2": "-5867/3341520",
+    "numerical_H_N2": -0.0017557877851876458,
+    "bath_inverse_temperature": "16 log 2",
+    "scope": "Failure of cone invariance only; no actual thermal crossing claimed."
+  },
+  "six_state_branch_witness": {
+    "origin": "physical_mpemba_frontier; independently checked here",
+    "energies": [
+      "0",
+      "1/2",
+      "501/1000",
+      "251/500",
+      "503/1000",
+      "1"
+    ],
+    "zero_bath_H_62": "-247/5000",
+    "thermal_H_62": "1277/436900",
+    "finite_bath_H_62": "-1015293/21845000",
+    "bath_inverse_temperature": "16 log 2",
+    "minimality_claimed": false
+  },
+  "positive_bath_hierarchy": {
+    "precision_decimal_digits": 80,
+    "energies": [
+      "0",
+      "1",
+      "2",
+      "1555"
+    ],
+    "beta_b": "10",
+    "beta_h": "0.00001",
+    "beta_c": "0.00002",
+    "slow_eigenvalue": "-1.0000605354535284587145406271022292093922794169353225102034187146401662563141836",
+    "backward_eigenfunction_quotient_residual": "3E-80",
+    "relative_detailed_balance_residual": "3E-80",
+    "minimum_positive_rate": "1.0463078432218879533120265146480450499858724160695031667291170755416021180138132E-6753",
+    "slow_amplitude_hot": "0.55522332667697124414140279801558843557858799708189010672016887774946076157802679",
+    "slow_amplitude_cold": "0.55522495092079148633973640981499468033081762681010470707087024885002643362090938",
+    "initial_TV_hot_minus_cold": "0.00096242618539024084474567657379985963936287616671845253595229570645996633910825",
+    "time_10_TV_hot_minus_cold": "-7.3692408176759704021021720692619205636762440027208774269759454747926197460E-11",
+    "uniformization_terms": [
+      220,
+      220
+    ],
+    "scope": "80-digit numerical witness, not an interval-arithmetic proof; analytic continuation proves existence."
+  },
+  "finite_time_divergence_comparisons": 684,
+  "worst_roundoff_or_violation": {
+    "cooling_KL": 2.1384618990583842e-16,
+    "cooling_reverse_KL": 2.2204460492503052e-16,
+    "cooling_chi2": 1.1104236810586326e-30,
+    "heating_chi2": 1.1104236810586326e-30,
+    "stochastic_order": -1.942890293094024e-16
+  },
+  "noncommuting_protocol": {
+    "energies": [
+      0.0,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "bath_inverse_temperature": "log 2",
+    "kernels": [
+      "d",
+      "1"
+    ],
+    "durations": [
+      0.07,
+      0.13
+    ],
+    "generator_commutator_maximum": 4.723809523809523,
+    "K_minus_adjoint_maximum": 0.01685082892266898,
+    "adjoint_product_orientation_error": 5.551115123125783e-17,
+    "row_density_orientation_error": 2.220446049250313e-16,
+    "power_divergence_comparisons": 42,
+    "largest_violation_or_roundoff": 0.0,
+    "scope": "Floating-point check of a genuinely noncommuting two-stage protocol; proof remains analytic."
+  }
+}

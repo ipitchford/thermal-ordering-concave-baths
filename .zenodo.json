@@ -1,0 +1,124 @@
+{
+  "title": "Thermal ordering under Markovian relaxation: a finite-time criterion and its limits",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p><strong>Unrefereed research candidate.</strong> When two copies of a system, one hotter and one cooler, relax in the same bath, the Markovian Mpemba effect is a crossing of their distances from equilibrium. This package gives a sufficient test that rules out such crossings at every time: if the dynamics and its time reverse preserve the cone of observables with nondecreasing arithmetic prefix means, cooling Gibbs preparations stay ordered for relative entropy (both orientations), squared Hellinger and R&eacute;nyi divergences of order 0&lt;&alpha;&le;2, including for common schedules of noncommuting stages. For complete-graph bosonic population rates with common coupling, the test holds for every spectrum and bath temperature exactly when the spontaneous jump weight is concave; Ohmic baths with large enough cutoff, Drude&ndash;Lorentz and sub-Ohmic weights qualify on explicit ranges, super-Ohmic weights do not. A certified super-Ohmic example (J=d<sup>3</sup>) shows an actual relative-entropy crossing. Limits: an exact five-state cone-preserving example has a brief total-variation reversal, and for every N&ge;4 there are N-level systems with a slow-mode inversion although no proper induced subsystem shows one.</p><p>The archive contains the 27-page manuscript (PDF and LaTeX), exact rational and interval certificates, a reproduction runner, semantic negative controls, CI and SHA-256 sums. Assurance: written proofs, exact certificates, internal AI-assisted review only (not peer review, independent reproduction or formal verification); the closest antecedent (Avitan et al. 2026) already excludes the slow-mode effect for Ohmic and sub-Ohmic spectra. Creator: Anonymous. Text and data CC0-1.0; code MIT.</p>",
+  "creators": [
+    {
+      "name": "Anonymous"
+    }
+  ],
+  "version": "1.0.0-candidate",
+  "publication_date": "2026-10-28",
+  "access_right": "open",
+  "license": "cc-zero",
+  "keywords": [
+    "Markovian Mpemba effect",
+    "thermal relaxation",
+    "stochastic order",
+    "invariant cone",
+    "f-divergence",
+    "bosonic bath",
+    "spectral density",
+    "Markov jump process",
+    "interval arithmetic certificate"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ipitchford/thermal-ordering-concave-baths/tree/v1.0.0-candidate",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://evidencepress.org/releases/thermal-ordering-concave-baths/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1073/pnas.1701264114",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1088/1751-8121/ae7228",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/s11134-012-9284-z",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1103/PhysRevLett.134.107101",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1103/rbt4-psfd",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1111/j.2517-6161.1984.tb01318.x",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1142/S0129055X11004412",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1103/PhysRevX.9.021060",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1038/s41586-020-2560-x",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1088/1742-5468/ac2edc",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1103/PhysRevLett.125.110602",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1103/PhysRevResearch.3.043160",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1038/s41567-023-02269-z",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/BF00531852",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/0304-4149(77)90033-3",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1287/moor.12.2.350",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/978-0-387-34675-5",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Code (all .py files and the CI workflow) is MIT; prose, manuscript, figures and data are CC0-1.0. Version DOI 10.5281/zenodo.23721564; concept DOI 10.5281/zenodo.23721563."
+}

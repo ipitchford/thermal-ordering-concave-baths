@@ -1,0 +1,68 @@
+{
+ "schemaVersion": "1.0",
+ "release": "thermal-ordering-concave-baths",
+ "version": "1.0.0-candidate",
+ "doi": "10.5281/zenodo.23721564",
+ "conceptDoi": "10.5281/zenodo.23721563",
+ "creator": "Anonymous",
+ "status": "unrefereed candidate",
+ "model": "Finite continuous-time Markov jump process on energy levels E_1<...<E_N with a bath at inverse temperature beta_b; Gibbs preparations p_beta; complete-graph bosonic population rates G_ij = J(|E_i-E_j|)[n_b+1_{E_i>E_j}] with common pair coupling; cone C of observables with nondecreasing arithmetic prefix means.",
+ "claims": [
+  {
+   "id": "C1",
+   "kind": "theorem",
+   "location": "Theorem 2, Corollary 3",
+   "statement": "If K and its pi-adjoint preserve C, Gibbs cooling order holds at every time for f-divergences with f' increasing concave (both KL orientations, squared Hellinger, Renyi 0<alpha<=2); heating with f' increasing convex; also for common schedules of reversible stages.",
+   "evidence": "written proof; verify_metric_protocol.py"
+  },
+  {
+   "id": "C2",
+   "kind": "theorem",
+   "location": "Theorem 4, Lemma 5",
+   "statement": "Complete-graph bosonic rates with continuous nonnegative J on [0,D]: e^{tG} preserves C for every spectrum of width <=D and every beta_b>0 iff J is concave (necessity needs all N and arbitrarily cold baths jointly).",
+   "evidence": "written proof; verify_concave_kernel.py"
+  },
+  {
+   "id": "C3",
+   "kind": "proposition",
+   "location": "Proposition 6, Corollary 7",
+   "statement": "Concavity thresholds: d^s iff 0<=s<=1; d^s e^{-d/w_c} iff 0<s<=1 and D<=(s+sqrt s)w_c; Drude-Lorentz iff D<=sqrt3 w_c; Gaussian iff D<=sqrt(3/2) w_c; super-Ohmic never.",
+   "evidence": "written proof; e1_threshold_check.py"
+  },
+  {
+   "id": "C4",
+   "kind": "certificate",
+   "location": "Proposition 8, Table 3",
+   "statement": "J=d^3, E=(0,1,2,3), e^{-beta_b}=2/3: cone failure and forward-KL crossing of two cooling preparations in t in (1/5,3/10).",
+   "evidence": "exact rational/interval certificate e2_superohmic_certificate.py; crossing time numerical only"
+  },
+  {
+   "id": "C5",
+   "kind": "certificate",
+   "location": "Proposition 9, Table 4, Appendix A",
+   "statement": "A five-state reversible cone-preserving generator with heating TV crossings in (10.46,10.47) and (10.47,10.48).",
+   "evidence": "exact certificate certify_counterexamples.py, c1_prop5_certificate.py; independent_tv_certificate.py"
+  },
+  {
+   "id": "C6",
+   "kind": "theorem",
+   "location": "Theorem 10, Appendix B",
+   "statement": "For every N>=4 there are finite-bath N-state reversible generators with a cooling slow-mode inversion and TV crossing while every proper induced subsystem excludes slow-mode inversion; q_0(N) existential.",
+   "evidence": "written proof; verify_hierarchy.py (finite N=4..12)"
+  },
+  {
+   "id": "C7",
+   "kind": "certificate",
+   "location": "Remark 11",
+   "statement": "Certified N=4 instance at q=1/1000 (and 1/100); no explicit q_0(4).",
+   "evidence": "e3_hierarchy_n4_certificate.py"
+  }
+ ],
+ "notClaimed": [
+  "Total-variation order for the concave physical class",
+  "Maximality of the Renyi ranges",
+  "Any statement about sparse graphs, arbitrary couplings or quantum coherences",
+  "That the class of Avitan et al. equals the concave class",
+  "Historical priority"
+ ]
+}

@@ -1,0 +1,531 @@
+{
+  "status": "PASS",
+  "model_cases": 36,
+  "exact_assertions": 6493,
+  "exact_derivative_evaluations": 864,
+  "nonreversible_three_stage_products": 12,
+  "normalisations": {
+    "power_alpha_2": "one half Pearson chi-square",
+    "power_alpha_half": "four times Hellinger squared when H\u00b2=half squared root distance",
+    "power_alpha_0_limit": "reverse KL, not Renyi order zero"
+  },
+  "scope": "Exact finite-operator audit; these uniformization steps are not matrix exponentials. The general semigroup and protocol claims rely on the written proof.",
+  "example": {
+    "E": [
+      0,
+      1,
+      2
+    ],
+    "bath_q": "1/2",
+    "preparation_q": "3/4",
+    "metric": "half Pearson chi-square",
+    "preparation_derivative": "-21550703452768/411925020866775",
+    "K": [
+      [
+        "119827/156195",
+        "57277/364455",
+        "1273/16821"
+      ],
+      [
+        "5498/17355",
+        "22398/40495",
+        "3161/24297"
+      ],
+      [
+        "46508/156195",
+        "96638/364455",
+        "95579/218673"
+      ]
+    ],
+    "pi_adjoint_K": [
+      [
+        "119827/156195",
+        "2749/17355",
+        "11627/156195"
+      ],
+      [
+        "114554/364455",
+        "22398/40495",
+        "48319/364455"
+      ],
+      [
+        "5092/16821",
+        "6322/24297",
+        "95579/218673"
+      ]
+    ],
+    "K_is_not_pi_self_adjoint": true
+  },
+  "cases": [
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "bath_q": "1/2",
+      "protocol": "one_step",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.09461297761296737
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "bath_q": "1/2",
+      "protocol": "three_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.03331439178147016
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "bath_q": "1/2",
+      "protocol": "reverse_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.03334499823902827
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "bath_q": "2/3",
+      "protocol": "one_step",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.07216519820921816
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "bath_q": "2/3",
+      "protocol": "three_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.022290545639005364
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        2
+      ],
+      "bath_q": "2/3",
+      "protocol": "reverse_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.022400057580853183
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "bath_q": "1/2",
+      "protocol": "one_step",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.07768815667089983
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "bath_q": "1/2",
+      "protocol": "three_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.025522537267048562
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "bath_q": "1/2",
+      "protocol": "reverse_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.025527765141283697
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "bath_q": "2/3",
+      "protocol": "one_step",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.11406502832582505
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "bath_q": "2/3",
+      "protocol": "three_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.03157775904582072
+    },
+    {
+      "N": 3,
+      "E": [
+        0,
+        1,
+        3
+      ],
+      "bath_q": "2/3",
+      "protocol": "reverse_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.03157444661228623
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "bath_q": "1/2",
+      "protocol": "one_step",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.13096867079877036
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "bath_q": "1/2",
+      "protocol": "three_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.05769929081899198
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "bath_q": "1/2",
+      "protocol": "reverse_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.057705487020147564
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "bath_q": "2/3",
+      "protocol": "one_step",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.14072122470914744
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "bath_q": "2/3",
+      "protocol": "three_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.05155464181377177
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "bath_q": "2/3",
+      "protocol": "reverse_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.051920321692248556
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "bath_q": "1/2",
+      "protocol": "one_step",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.09803931172445221
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "bath_q": "1/2",
+      "protocol": "three_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.04037535816783567
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "bath_q": "1/2",
+      "protocol": "reverse_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.04037072805954028
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "bath_q": "2/3",
+      "protocol": "one_step",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.15006526751729463
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "bath_q": "2/3",
+      "protocol": "three_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.05273688314800101
+    },
+    {
+      "N": 4,
+      "E": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "bath_q": "2/3",
+      "protocol": "reverse_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.0527334511003881
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "bath_q": "1/2",
+      "protocol": "one_step",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.15536499048948263
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "bath_q": "1/2",
+      "protocol": "three_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.0800431492431326
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "bath_q": "1/2",
+      "protocol": "reverse_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.08003521470742567
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "bath_q": "2/3",
+      "protocol": "one_step",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.230249287708827
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "bath_q": "2/3",
+      "protocol": "three_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.09544902673750627
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "bath_q": "2/3",
+      "protocol": "reverse_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.09605408349352457
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        3,
+        6,
+        10
+      ],
+      "bath_q": "1/2",
+      "protocol": "one_step",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.10728682933019916
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        3,
+        6,
+        10
+      ],
+      "bath_q": "1/2",
+      "protocol": "three_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.05692930675160142
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        3,
+        6,
+        10
+      ],
+      "bath_q": "1/2",
+      "protocol": "reverse_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.056927283192488305
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        3,
+        6,
+        10
+      ],
+      "bath_q": "2/3",
+      "protocol": "one_step",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.17234420510713583
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        3,
+        6,
+        10
+      ],
+      "bath_q": "2/3",
+      "protocol": "three_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.07196453434203211
+    },
+    {
+      "N": 5,
+      "E": [
+        0,
+        1,
+        3,
+        6,
+        10
+      ],
+      "bath_q": "2/3",
+      "protocol": "reverse_stages",
+      "derivative_evaluations": 24,
+      "minimum_absolute_derivative_as_float": 0.07197154840324896
+    }
+  ],
+  "elapsed_seconds": 0.3428029709975817,
+  "script_sha256": "7d30a832d40dd0520ddd38d59ba7941b426badaa73e16ecb5599dc905036207c"
+}
